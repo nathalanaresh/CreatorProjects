@@ -1,0 +1,64 @@
+<html>
+<head>
+  <title>Agile Bank Application</title>
+</head>
+
+<body>
+  <h1>
+    Agile Bank Application
+  </h1>
+
+  <p>
+    This example shows how Conformiq Creator models can be gradually
+    refined from user stories into model from which test automation 
+    can be generated, e.g., in an agile application development context. 
+    The user story is based on Conformiq's 
+    <a href="http://parabank.conformiq.com/parabank">Parabank
+    sample web application</a>. Note that this example comes pre-configured 
+    with the Excel scripting backend attached and allows immediate 
+    rendering of  generated tests to Excel. Remember to close Microsoft 
+    Excel after viewing generated Excel files - since MS Excel otherwise 
+    prevents Conformiq to update the generated Excel files.
+  </p>
+
+  <p>
+    Open from the <i>model</i> folder in the <i>Project Explorer</i> view
+    the "Sprint 1" activity diagram. It shows the starting point for our
+    model creation which is a model of the user story including logging
+    into the banking application and user choosing between the three 
+    different options:either open a new account, transfer money or 
+    request a loan. Click on each business activity and 
+    see in the <i>Properties</i> view of the <i>Conformiq Modeling</i>
+    perspective that each business activity has more detailed <i>when</i> 
+    and <i>then</i> business actions defined. The "Login" node also shows an
+    example of modifying the default business activity parameter names 
+    and adding a second parameter value set. Select the decision node 
+    and review its specification in the <i>Properties</i> view to see how
+    business activity parameters can be selected as a decision basis.
+    Feel free to see how tests can be generated and rendered to Excel 
+    - be default this activity diagram is selected as <i>main activity 
+    diagram</i>. Notice that technically no structure diagram is needed 
+    to generate tests from this pure business requirement model.  
+  </p>
+
+  <p>
+    The "Sprint 2" activity diagram shows the same functionality refined:
+    Here, the user has captured application user interface information 
+    in the "Bank Application User Interface" structure diagram, and then
+    refined one of the flows, i.e., "Login" and "Open new account" business 
+    activities by replacing them with activity nodes and drag & dropping
+    actions from the <i>Action</i> view into the activity nodes. Also 
+    specification of the decision basis has been updated to use the actual 
+    form field and data that define what is "valid credentials". Finally, 
+    observe that we have now added test data for credentials using a <i>value
+    list </i>data object and injected it as a input constraint to the 
+    fill form action. Again - feel free to select this activity diagram as 
+    <i>main activity diagram</i> and see how tests can be generated and rendered 
+    to Excel. Observe how the generated tests change - old tests become
+    invalid since test steps for "Login" have changed, and we get more tests
+    since we have specified more test data. Note that test data can also
+    be linked from external spreadsheets - such as Excel (xls) files.
+  </p>
+
+</body>
+</html>

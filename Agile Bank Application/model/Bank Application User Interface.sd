@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/14/StructureDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_NsoM8GZEEeePJ6kHvSOzTw" type="Dsl" name="Parabank%20Interfaces.sd" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_YrixkGZEEeePJ6kHvSOzTw" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YrixlmZEEeePJ6kHvSOzTw" type="5037"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Yrixl2ZEEeePJ6kHvSOzTw" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_YrixomZEEeePJ6kHvSOzTw" type="3007">
+        <children xmi:type="notation:DecorationNode" xmi:id="_YrixqGZEEeePJ6kHvSOzTw" type="5015"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_YrixqWZEEeePJ6kHvSOzTw" type="7004">
+          <children xmi:type="notation:Shape" xmi:id="_Yrr7hmZEEeePJ6kHvSOzTw" type="3010" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Yrr7iGZEEeePJ6kHvSOzTw" type="5011"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_Yrr7iWZEEeePJ6kHvSOzTw" type="5058"/>
+            <element xmi:type="com.conformiq.creator.structure.dsl:TextBox" href="Bank%20Application%20User%20Interface.sl#qml249ffd7165004162b39417f7b0953613"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yrr7h2ZEEeePJ6kHvSOzTw" x="7" y="4" width="181" height="25"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Yrr7imZEEeePJ6kHvSOzTw" type="3010" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Yrr7jGZEEeePJ6kHvSOzTw" type="5011"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_Yrr7jWZEEeePJ6kHvSOzTw" type="5058"/>
+            <element xmi:type="com.conformiq.creator.structure.dsl:TextBox" href="Bank%20Application%20User%20Interface.sl#qml240d49a999854dd1b5cee10c16247e1e"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yrr7i2ZEEeePJ6kHvSOzTw" x="7" y="28" width="181" height="25"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Yrixo2ZEEeePJ6kHvSOzTw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_YrixpGZEEeePJ6kHvSOzTw" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_YrixpWZEEeePJ6kHvSOzTw"/>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_YrixpmZEEeePJ6kHvSOzTw"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Form" href="Bank%20Application%20User%20Interface.sl#qmlbfada75f47c74f6abf84708509f266d8"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yrixp2ZEEeePJ6kHvSOzTw" x="5" y="8" width="205" height="97"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_YrixqmZEEeePJ6kHvSOzTw" type="3014">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Yrixr2ZEEeePJ6kHvSOzTw" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Yrixq2ZEEeePJ6kHvSOzTw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_YrixrGZEEeePJ6kHvSOzTw" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_YrixrWZEEeePJ6kHvSOzTw"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Button" href="Bank%20Application%20User%20Interface.sl#qml175610fbd254496d91598b1ef52e019a"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YrixrmZEEeePJ6kHvSOzTw" x="5" y="113" width="205" height="25"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_YrixkWZEEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_YrixkmZEEeePJ6kHvSOzTw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_Yrixk2ZEEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_YrixlGZEEeePJ6kHvSOzTw"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="Bank%20Application%20User%20Interface.sl#qml10787985be5d41d883c1d159ea0e1dda"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YrixlWZEEeePJ6kHvSOzTw" x="55" y="40" width="229" height="186"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_qiKN0GZEEeePJ6kHvSOzTw" type="2005">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qiKN1mZEEeePJ6kHvSOzTw" type="5047"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qiKN12ZEEeePJ6kHvSOzTw" type="7021">
+      <children xmi:type="notation:Shape" xmi:id="_qiKN4mZEEeePJ6kHvSOzTw" type="3042" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_qiKN5GZEEeePJ6kHvSOzTw" type="5046"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:EnumerationValue" href="Bank%20Application%20User%20Interface.sl#qmlc890cda2eee842e2a84d7ff7547daa8f"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qiKN42ZEEeePJ6kHvSOzTw" x="761" y="103" width="104" height="18"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qiKN5WZEEeePJ6kHvSOzTw" type="3042" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_qiKN52ZEEeePJ6kHvSOzTw" type="5046"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:EnumerationValue" href="Bank%20Application%20User%20Interface.sl#qml8ef9e6e7034d4af7844f5d1952fa6d94"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qiKN5mZEEeePJ6kHvSOzTw" x="761" y="121" width="104" height="18"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qiKN2GZEEeePJ6kHvSOzTw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qiKN2WZEEeePJ6kHvSOzTw"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_qiKN0WZEEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qiKN0mZEEeePJ6kHvSOzTw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_qiKN02ZEEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_qiKN1GZEEeePJ6kHvSOzTw"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Enumeration" href="Bank%20Application%20User%20Interface.sl#qmle0819bddbb3f4b2bacac7868cdeab9b8"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qiKN1WZEEeePJ6kHvSOzTw" x="610" y="70" width="116" height="66"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_qiKN2mZEEeePJ6kHvSOzTw" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qiKN4GZEEeePJ6kHvSOzTw" type="5037"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qiKN4WZEEeePJ6kHvSOzTw" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_qiT-0GZEEeePJ6kHvSOzTw" type="3007">
+        <children xmi:type="notation:DecorationNode" xmi:id="_qiT-1mZEEeePJ6kHvSOzTw" type="5015"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_qiT-12ZEEeePJ6kHvSOzTw" type="7004">
+          <children xmi:type="notation:Shape" xmi:id="_qiT-42ZEEeePJ6kHvSOzTw" type="3012" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_qiT-5WZEEeePJ6kHvSOzTw" type="5013"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_qiT-5mZEEeePJ6kHvSOzTw" type="5064"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_qiT-52ZEEeePJ6kHvSOzTw" type="5065"/>
+            <element xmi:type="com.conformiq.creator.structure.dsl:DropdownEnumeration" href="Bank%20Application%20User%20Interface.sl#qml84b5999f83aa4343a72ab52b2fd6ff25"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qiT-5GZEEeePJ6kHvSOzTw" x="8" y="2" width="175" height="40"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_qiT-6GZEEeePJ6kHvSOzTw" type="3012" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_qiT-6mZEEeePJ6kHvSOzTw" type="5013"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_qiT-62ZEEeePJ6kHvSOzTw" type="5064"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_qiT-7GZEEeePJ6kHvSOzTw" type="5065"/>
+            <element xmi:type="com.conformiq.creator.structure.dsl:DropdownEnumeration" href="Bank%20Application%20User%20Interface.sl#qml72b221be2f6342e3b91271de26e1eff2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qiT-6WZEEeePJ6kHvSOzTw" x="8" y="37" width="190" height="40"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_qiT-0WZEEeePJ6kHvSOzTw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_qiT-0mZEEeePJ6kHvSOzTw" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_qiT-02ZEEeePJ6kHvSOzTw"/>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_qiT-1GZEEeePJ6kHvSOzTw"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Form" href="Bank%20Application%20User%20Interface.sl#qmlb8b3d9e677e74ebb98b4c56f62e473a2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qiT-1WZEEeePJ6kHvSOzTw" x="2" y="4" width="224" height="125"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_qiT-2GZEEeePJ6kHvSOzTw" type="3014">
+        <children xmi:type="notation:DecorationNode" xmi:id="_qiT-3WZEEeePJ6kHvSOzTw" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_qiT-2WZEEeePJ6kHvSOzTw"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_qiT-2mZEEeePJ6kHvSOzTw" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_qiT-22ZEEeePJ6kHvSOzTw"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Button" href="Bank%20Application%20User%20Interface.sl#qml93540caa943040a185b2dfe450c7b6ae"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qiT-3GZEEeePJ6kHvSOzTw" x="5" y="138" width="133" height="40"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_qiKN22ZEEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qiKN3GZEEeePJ6kHvSOzTw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_qiKN3WZEEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_qiKN3mZEEeePJ6kHvSOzTw"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="Bank%20Application%20User%20Interface.sl#qml7f8bf4298ddb43e0801e7090c6d89d56"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qiKN32ZEEeePJ6kHvSOzTw" x="335" y="45" width="251" height="231"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_xSdc8GZEEeePJ6kHvSOzTw" type="2005">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xSdc9mZEEeePJ6kHvSOzTw" type="5047"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xSdc92ZEEeePJ6kHvSOzTw" type="7021">
+      <children xmi:type="notation:Shape" xmi:id="_xSdc-mZEEeePJ6kHvSOzTw" type="3042" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_xSdc_GZEEeePJ6kHvSOzTw" type="5046"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:EnumerationValue" href="Bank%20Application%20User%20Interface.sl#qml2fd9d15f3d0a49018e07c15fae40c162"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xSdc-2ZEEeePJ6kHvSOzTw" x="831" y="308" width="174" height="18"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xSdc_WZEEeePJ6kHvSOzTw" type="3042" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_xSdc_2ZEEeePJ6kHvSOzTw" type="5046"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:EnumerationValue" href="Bank%20Application%20User%20Interface.sl#qml4b145b0e58474e2d8b6da1e486c32c00"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xSdc_mZEEeePJ6kHvSOzTw" x="831" y="326" width="174" height="18"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xSddAGZEEeePJ6kHvSOzTw" type="3042" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_xSddAmZEEeePJ6kHvSOzTw" type="5046"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:EnumerationValue" href="Bank%20Application%20User%20Interface.sl#qml46af46812eac4dacb3488857601341a2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xSddAWZEEeePJ6kHvSOzTw" x="831" y="344" width="174" height="18"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xSdc-GZEEeePJ6kHvSOzTw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xSdc-WZEEeePJ6kHvSOzTw"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_xSdc8WZEEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xSdc8mZEEeePJ6kHvSOzTw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_xSdc82ZEEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_xSdc9GZEEeePJ6kHvSOzTw"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Enumeration" href="Bank%20Application%20User%20Interface.sl#qmlb643cffa17154deca03fcb12f5802bc9"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xSdc9WZEEeePJ6kHvSOzTw" x="610" y="155" width="186" height="91"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_DTs_YGZGEeePJ6kHvSOzTw" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_DTs_ZmZGEeePJ6kHvSOzTw" type="5037"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_DTs_Z2ZGEeePJ6kHvSOzTw" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_Em5FkGZGEeePJ6kHvSOzTw" type="3069">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Em5FlGZGEeePJ6kHvSOzTw" type="5109"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Em5FkWZGEeePJ6kHvSOzTw"/>
+        <styles xmi:type="notation:FillStyle" xmi:id="_Em5FkmZGEeePJ6kHvSOzTw"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:LabelWidget" href="Bank%20Application%20User%20Interface.sl#qmla503ee012f5b481aa0eac61e6328bb40"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Em5Fk2ZGEeePJ6kHvSOzTw" x="10" y="3" width="161"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_DTs_YWZGEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_DTs_YmZGEeePJ6kHvSOzTw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_DTs_Y2ZGEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_DTs_ZGZGEeePJ6kHvSOzTw"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="Bank%20Application%20User%20Interface.sl#qml24fa6d9b63ef4b3e892668e56795d2bf"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DTs_ZWZGEeePJ6kHvSOzTw" x="830" y="50" width="206" height="111"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_NsoM8WZEEeePJ6kHvSOzTw"/>
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="Bank%20Application%20User%20Interface.sl#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_qip9EGZEEeePJ6kHvSOzTw" type="4005" source="_qiT-42ZEEeePJ6kHvSOzTw" target="_qiKN0GZEEeePJ6kHvSOzTw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qip9FGZEEeePJ6kHvSOzTw" type="6003">
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_qip9FWZEEeePJ6kHvSOzTw"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qip9FmZEEeePJ6kHvSOzTw" y="40"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_qip9EWZEEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_qip9EmZEEeePJ6kHvSOzTw" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qip9E2ZEEeePJ6kHvSOzTw" points="[-32, -20, 60, 38]$[-92, -58, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uuqqgGZEEeePJ6kHvSOzTw" id="(0.96,0.275)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z9m0kGZEEeePJ6kHvSOzTw" id="(0.04310344827586207,0.8333333333333334)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_yYJSoGZEEeePJ6kHvSOzTw" type="4005" source="_qiT-6GZEEeePJ6kHvSOzTw" target="_xSdc8GZEEeePJ6kHvSOzTw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yYJSpGZEEeePJ6kHvSOzTw" type="6003">
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_yYJSpWZEEeePJ6kHvSOzTw"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yYJSpmZEEeePJ6kHvSOzTw" y="40"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_yYJSoWZEEeePJ6kHvSOzTw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yYJSomZEEeePJ6kHvSOzTw" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yYJSo2ZEEeePJ6kHvSOzTw" points="[142, 15, -100, -11]$[223, 15, -19, -11]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yYJSp2ZEEeePJ6kHvSOzTw" id="(0.25263157894736843,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yYJSqGZEEeePJ6kHvSOzTw" id="(0.1881720430107527,0.12087912087912088)"/>
+  </edges>
+</notation:Diagram>
