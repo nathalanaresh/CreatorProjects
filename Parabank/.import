@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.conformiq:ConformiqImport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq="http://conformiq.com/importers" name="Parabank">
+  <importProperties identifier="creator_excel_import" name="Excel Importer for Sreator">
+    <properties key="header row" value="1"/>
+    <properties key="fileName" value="ExcelTestcases.xls;"/>
+    <properties key="seperate diagram" value="false"/>
+    <properties key="test no" value="0"/>
+    <properties key="test name" value="2"/>
+    <properties key="test description" value="3"/>
+    <properties key="test step name" value="6"/>
+    <properties key="test step exp" value="9"/>
+    <properties key="test step desc" value="8"/>
+    <properties key="test step action name" value="true"/>
+    <properties key="LEFT PARAM" value="&lt;&lt;&lt;"/>
+    <properties key="param right" value=">>>"/>
+    <properties key="decision" value="Default"/>
+    <properties key="ignore white space" value="true"/>
+    <properties key="narrative" value="true"/>
+    <properties key="filefolder" value="D:\Conformiq\Reverse Engineering\Reverse Engineering"/>
+  </importProperties>
+</com.conformiq:ConformiqImport>

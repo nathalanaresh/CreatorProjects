@@ -1,0 +1,453 @@
+Wed Nov 29 12:19:44 IST 2017
+ INFO: Processing ExcelTestcases.xls
+
+Wed Nov 29 12:19:44 IST 2017
+ INFO: Excel Read complete
+Wed Nov 29 12:19:44 IST 2017
+ INFO: Creating CTA XML file :ExcelTestcases.xml
+Wed Nov 29 12:19:44 IST 2017
+ INFO: Processed CTA XML file :ExcelTestcases.xml
+Wed Nov 29 12:19:47 IST 2017
+ INFO: Project Name :ExcelTestcases
+
+------------------Test Analysis Report Begins----------
+
+Test Case Optimization:
+-------------------------------------------------------
+Tests Processed :
+Test 1: ST_REQID_Test Case Number15_P : 1 occurrence 
+Test 2: ST_REQID_Test Case Number14_P : 1 occurrence 
+Test 3: ST_REQID_Test Case Number13_P : 1 occurrence 
+Test 4: ST_REQID_Test Case Number12_P : 1 occurrence 
+Test 5: ST_REQID_Test Case Number11_P : 1 occurrence 
+Test 6: ST_REQID_Test Case Number7_N : 1 occurrence 
+Test 7: ST_REQID_Test Case Number10_P : 1 occurrence 
+Test 8: ST_REQID_Test Case Number6_N : 1 occurrence 
+Test 9: ST_REQID_Test Case Number5_N : 1 occurrence 
+Test 10: ST_REQID_Test Case Number4_N : 1 occurrence 
+Test 11: ST_REQID_Test Case Number3_N : 1 occurrence 
+Test 12: ST_REQID_Test Case Number2_N : 1 occurrence 
+Test 13: ST_REQID_Test Case Number1_N : 1 occurrence 
+Test 14: ST_REQID_Test Case Number9_P : 1 occurrence 
+Test 15: ST_REQID_Test Case Number8_P : 1 occurrence 
+
+ - Reduction in Tests:  0%
+
+Input Action/Test Step Optimization :
+-------------------------------------------------------
+Total No of Test Steps : 0
+
+Verification Action/Expected result Optimization :
+-------------------------------------------------------
+Total No of Step Expected Results :0
+
+Generated Keywords:
+-------------------------------------------------------
+Total No of Keywords :20
+Keyword 1: Fetch the results from the database using the query Select   from loan details t : 1
+Keyword 2: Fill Utility Selection form in Loan screen selecting Comments from Related Act 1 : 1
+Keyword 3: Fill Login form in Login screen entering Valid User3 in User name textbox ente : 1
+Keyword 4: Fill Login form in Login screen entering Valid User1 in User name textbox ente : 1
+Keyword 5: Fill Search Criteria form in Loan screen entering Loan Number in Loan   textbo 1 : 1
+Keyword 6: Click Loan hyperlink in the Home screen : 1
+Keyword 7: Fill Search Criteria form in Loan screen entering  in Loan   textbox entering 2 : 1
+Keyword 8: Fill Search Criteria form in Loan screen entering  in Loan   textbox entering : 1
+Keyword 9: Enter URL : 1
+Keyword 10: Fill Search Criteria form in Loan screen entering  in Loan   textbox entering 1 : 1
+Keyword 11: Select the loan from the search results and verify Utility under related Action : 1
+Keyword 12: Fill Comments form in Commenting screen entering Test Comment in Comments text : 1
+Keyword 13: Click Loan hyperlink in the Home screen 1 : 1
+Keyword 14: Fill Utility Selection form in Loan screen selecting Comments from Related Act : 1
+Keyword 15: Fill Login form in Login screen entering Valid User2 in User name textbox ente : 1
+Keyword 16: Fill Search Criteria form in Loan screen entering Review Type in Review Type t : 1
+Keyword 17: Fill Utility Selection form in Loan screen selecting Deficiencies from Related : 1
+Keyword 18: Fill Utility Selection form in Loan screen selecting Mortgage Flags from Relat : 1
+Keyword 19: Fill Search Criteria form in Loan screen entering Loan Number in Loan   textbo : 1
+Keyword 20: Fill Utility Selection form in Loan screen selecting Manual Extend from Relate : 1
+
+Requirement Coverage:
+-------------------------------------------------------
+Total No of Covered Requirements :0
+
+-------------------------------------------------------
+
+Test suite optimization during import:
+ - Reduction in Tests:  0%
+
+------------------Test Analysis Report Ends------------
+
+Wed Nov 29 12:19:47 IST 2017
+ INFO: testsuite Test cases , allElements size : 21
+Wed Nov 29 12:19:47 IST 2017
+ INFO: updateConnections allElements size: 30
+Wed Nov 29 12:19:47 IST 2017
+ INFO: updateConnections allConnectors size: 36
+Wed Nov 29 12:19:47 IST 2017
+ INFO: UpdateDecisiontoEvent allElements size: 34
+Wed Nov 29 12:19:47 IST 2017
+ INFO: UpdateDecisiontoEvent allConnectors size: 40
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Enter URL
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Login screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Login form in Login screen entering \"Valid User3\" in User name textbox entering \"Valid Password\" in Password textboxClick Login button in the Login screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Home screen without any Loan link enabled
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Login form in Login screen entering \"Valid User1\" in User name textbox entering \"Valid Password\" in Password textboxClick Login button in the Login screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Home screen Loan hyperlink is visible
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Click Loan hyperlink in the Home screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Loan screen where in Search Criteria form Loan # textbox is visible Review Type textbox is visible Review Status textbox is visible Review Reason textbox is visible Rep Name textbox is visible Responsible Party textbox is visible Responsible Party Family textbox is visible
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"\" in Loan # textbox entering \" \" in Review Type textbox entering \"Review Status\" in Review Status textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Error message should be displayed for mandatory field Review Type
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"\" in Loan # textbox entering \"Review Type\" in Review Type textbox entering \" \" in Review Status textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Error message should be displayed for mandatory field Review Status
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"\" in Loan # textbox entering \" \" in Review Type textbox entering \" \" in Review Status textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Error message should be displayed when the search criteria details are not specified.
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Login form in Login screen entering \"Valid User2\" in User name textbox entering \"Valid Password\" in Password textboxClick Login button in the Login screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Home screen Loan hyperlink is visible
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Click Loan hyperlink in the Home screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Loan screen where in Search Criteria form Loan # textbox is visible Review Type textbox is visible Review Status textbox is visible Review Reason textbox is visible Rep Name textbox is visible Responsible Party textbox is visible Responsible Party Family textbox is visible Manager/Director textbox is visible Underwriter textbox is visible
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"Review Type\" in Review Type textbox entering \"Review Status\" in Review Status textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Search results should be displayed with the following information:Loan #Review #
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fetch the results from the database using the query:Select * from loan details table where loan number is XXX
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Validate the data base results against the UI results.
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Select the loan from the search results and verify Utility under related Action section is enabled
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Under related Action section Utility Selection with dropdown is enabled
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Utility Selection form in Loan screen selecting \"Comments\" from Related Action dropdownClick Submit button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Commenting screen Loan # label is set to \"LoanNumber\"
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Comments form in Commenting screen entering \"Test Comment\" in Comments textboxClick Save & Submit button in the Commenting screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Utility Selection form in Loan screen selecting \"Comments\" from Related Action dropdown
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Commenting screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"Loan Number\" in Loan # textbox entering \"\" in Review Type textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Search results should be displayed with the following information:Loan #Review #
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Utility Selection form in Loan screen selecting \"Mortgage Flags\" from Related Action dropdown
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Mortgage Flags screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Utility Selection form in Loan screen selecting \"Manual Extend\" from Related Action dropdown
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Manual Extend screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"Loan Number\" in Loan # textbox entering \"\" in Review Type textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Search results should be displayed with the following information:Loan #
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Utility Selection form in Loan screen selecting \"Deficiencies\" from Related Action dropdown
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Deficiencies screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Enter URL
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Login screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Login form in Login screen entering \"Valid User3\" in User name textbox entering \"Valid Password\" in Password textboxClick Login button in the Login screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Home screen without any Loan link enabled
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Login form in Login screen entering \"Valid User1\" in User name textbox entering \"Valid Password\" in Password textboxClick Login button in the Login screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Home screen Loan hyperlink is visible
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Click Loan hyperlink in the Home screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Loan screen where in Search Criteria form Loan # textbox is visible Review Type textbox is visible Review Status textbox is visible Review Reason textbox is visible Rep Name textbox is visible Responsible Party textbox is visible Responsible Party Family textbox is visible
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"\" in Loan # textbox entering \" \" in Review Type textbox entering \"Review Status\" in Review Status textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Error message should be displayed for mandatory field Review Type
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"\" in Loan # textbox entering \"Review Type\" in Review Type textbox entering \" \" in Review Status textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Error message should be displayed for mandatory field Review Status
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"\" in Loan # textbox entering \" \" in Review Type textbox entering \" \" in Review Status textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Error message should be displayed when the search criteria details are not specified.
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Login form in Login screen entering \"Valid User2\" in User name textbox entering \"Valid Password\" in Password textboxClick Login button in the Login screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Home screen Loan hyperlink is visible
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Click Loan hyperlink in the Home screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Loan screen where in Search Criteria form Loan # textbox is visible Review Type textbox is visible Review Status textbox is visible Review Reason textbox is visible Rep Name textbox is visible Responsible Party textbox is visible Responsible Party Family textbox is visible Manager/Director textbox is visible Underwriter textbox is visible
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"Review Type\" in Review Type textbox entering \"Review Status\" in Review Status textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Search results should be displayed with the following information:Loan #Review #
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fetch the results from the database using the query:Select * from loan details table where loan number is XXX
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Validate the data base results against the UI results.
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Select the loan from the search results and verify Utility under related Action section is enabled
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Under related Action section Utility Selection with dropdown is enabled
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Utility Selection form in Loan screen selecting \"Comments\" from Related Action dropdownClick Submit button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Commenting screen Loan # label is set to \"LoanNumber\"
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Comments form in Commenting screen entering \"Test Comment\" in Comments textboxClick Save & Submit button in the Commenting screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Utility Selection form in Loan screen selecting \"Comments\" from Related Action dropdown
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Commenting screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"Loan Number\" in Loan # textbox entering \"\" in Review Type textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Search results should be displayed with the following information:Loan #Review #
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Utility Selection form in Loan screen selecting \"Mortgage Flags\" from Related Action dropdown
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Mortgage Flags screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Utility Selection form in Loan screen selecting \"Manual Extend\" from Related Action dropdown
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Manual Extend screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Search Criteria form in Loan screen entering \"Loan Number\" in Loan # textbox entering \"\" in Review Type textboxClick Apply button in the Loan screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Search results should be displayed with the following information:Loan #
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: Fill Utility Selection form in Loan screen selecting \"Deficiencies\" from Related Action dropdown
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : Application displays Deficiencies screen
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element actionText: 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: element observationText : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: seqFlow : 
+Wed Nov 29 12:19:47 IST 2017
+ INFO: CreateActivities allElements size: 34
+Wed Nov 29 12:19:47 IST 2017
+ INFO: CreateActivities allConnectors size: 40
+Wed Nov 29 12:19:48 IST 2017
+ INFO: Excel convertion result: true
+Wed Nov 29 12:19:48 IST 2017
+ INFO: Following 1 out of 1 Excel files have been successfully imported.
+- ExcelTestcases.xls
+
+Test suite optimization during import:
+ - Reduction in Tests:  0%
+

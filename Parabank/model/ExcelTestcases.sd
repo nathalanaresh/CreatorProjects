@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/13/StructureDiagram" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" xmi:id="_48665793-3084-4d9e-aa32-e462c6385c45" type="Dsl" name="ExcelTestcases.sd" measurementUnit="Pixel">
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="ExcelTestcases.sl#/" />
+  <children xmi:type="notation:Shape" xmi:id="_Timeline" type="Note" fontName="Segoe UI" description="This diagram was automatically generated from ExcelTestcases.xls on 29/11/2017 12:19:48 by Excel Manual Tests Importer" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_ab327ba5d0234e7aa3a2aa48e51f096f" type="DiagramName">
+      <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="__eed82b2040e5403685f56c72e7ab2b91" type="Description">
+      <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_ac6dcda7e8ff444ca2efca1ecea66e42" />
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_7b35f659129643c2bcb0e908654f663d" />
+    <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__d3da4963a0ec4b6da4e06d1f7e2a5117" x="100" y="100" />
+  </children>
+</notation:Diagram>
+

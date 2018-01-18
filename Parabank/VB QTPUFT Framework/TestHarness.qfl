@@ -1,0 +1,701 @@
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''
+'' OVERVIEW OF THE TEST HARNESS MAPPING FILE
+'' =========================================
+''
+'' Test harness file contains the adaptation of the application
+'' Conformiq generates a sequence of steps where each step is represented as
+'' a "keyword driven" call to "code". The purpose of the functions in
+'' this file is to invoke the actual application under the test
+'' This file has been automatically generated, and user have an option 
+'' to overwrite or not in the subsequent publication
+''
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'' ROUTINES FOR HARNESSING CONFORMIQ GENERATED TESTING LOGIC AND
+'' THE CONCRETE TEST LIBRARY
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Function CLICK_Forgot_login_info__HYPERLINK_Parabank_Welcome_Customer_Login(guiContext,guiData)
+    'This <CLICK_Forgot_login_info__HYPERLINK_Parabank_Welcome_Customer_Login(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < CLICK Forgot login info  HYPERLINK Parabank Welcome Customer Login >action
+    'Step1 : Store data locally
+
+		'CLICK_Forgot_login_info__HYPERLINK_Parabank_Welcome_Customer_Login= micWarning
+ 
+		Parabank_Welcome_Customer_Login_Forgot_login_info__HYPERLINK = guiContext("Parabank_Welcome_Customer_Login_Forgot_login_info__HYPERLINK")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Parabank Welcome").Page("Customer Login").Link("Forgot login info?").Click 
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'CLICK_Forgot_login_info__HYPERLINK_Parabank_Welcome_Customer_Login=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < CLICK Forgot login info  HYPERLINK Parabank Welcome Customer Login>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function VERIFY_Parabank_Welcome_SCREEN(guiContext,guiData)
+    'This <VERIFY_Parabank_Welcome_SCREEN(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < VERIFY Parabank Welcome SCREEN >action
+    'Step1 : Store data locally
+
+		'VERIFY_Parabank_Welcome_SCREEN= micWarning
+ 
+		Parabank_Welcome_Customer_Login_Username_TEXTBOX = guiData("Parabank_Welcome_Customer_Login_Username_TEXTBOX")
+		Parabank_Welcome_Customer_Login_Username_TEXTBOX_VALUE_TYPE = guiData("Parabank_Welcome_Customer_Login_Username_TEXTBOX_VALUE_TYPE")
+		Parabank_Welcome_Customer_Login_Username_TEXTBOX_STATUS = guiData("Parabank_Welcome_Customer_Login_Username_TEXTBOX_STATUS")
+		Parabank_Welcome_Customer_Login_Password_TEXTBOX = guiData("Parabank_Welcome_Customer_Login_Password_TEXTBOX")
+		Parabank_Welcome_Customer_Login_Password_TEXTBOX_VALUE_TYPE = guiData("Parabank_Welcome_Customer_Login_Password_TEXTBOX_VALUE_TYPE")
+		Parabank_Welcome_Customer_Login_Password_TEXTBOX_STATUS = guiData("Parabank_Welcome_Customer_Login_Password_TEXTBOX_STATUS")
+		Parabank_Welcome_Customer_Login_LOG_IN_BUTTON_STATUS = guiData("Parabank_Welcome_Customer_Login_LOG_IN_BUTTON_STATUS")
+		Parabank_Welcome_Customer_Login_Register_HYPERLINK_STATUS = guiData("Parabank_Welcome_Customer_Login_Register_HYPERLINK_STATUS")
+		Parabank_Welcome_Customer_Login_Forgot_login_info__HYPERLINK_STATUS = guiData("Parabank_Welcome_Customer_Login_Forgot_login_info__HYPERLINK_STATUS")
+		Parabank_Welcome_Customer_Login_Admin_Page_HYPERLINK_STATUS = guiData("Parabank_Welcome_Customer_Login_Admin_Page_HYPERLINK_STATUS")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Parabank Welcome").Page("Customer Login").WebEdit("Username").Check  Checkpoint("Username")
+		'Browser("Parabank Welcome").Page("Customer Login").WebEdit("Password").Check  Checkpoint("Password")
+		'Browser("Parabank Welcome").Page("Customer Login").WebButton("LOG IN").Check  Checkpoint("LOG IN")
+		'Browser("Parabank Welcome").Page("Customer Login").Link("Register").Check  Checkpoint("Register")
+		'Browser("Parabank Welcome").Page("Customer Login").Link("Forgot login info?").Check  Checkpoint("Forgot login info?")
+		'Browser("Parabank Welcome").Page("Customer Login").Link("Admin Page").Check  Checkpoint("Admin Page")
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'VERIFY_Parabank_Welcome_SCREEN=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < VERIFY Parabank Welcome SCREEN>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function CLICK_SUBMIT_BUTTON_Administration(guiContext,guiData)
+    'This <CLICK_SUBMIT_BUTTON_Administration(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < CLICK SUBMIT BUTTON Administration >action
+    'Step1 : Store data locally
+
+		'CLICK_SUBMIT_BUTTON_Administration= micWarning
+ 
+		Administration_SUBMIT_BUTTON = guiContext("Administration_SUBMIT_BUTTON")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Administration").Page("Administration").WebButton("SUBMIT").Click 
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'CLICK_SUBMIT_BUTTON_Administration=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < CLICK SUBMIT BUTTON Administration>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function VERIFY_Account_Created_ACTION(user,actionData)
+    'This <VERIFY_Account_Created_ACTION(user,actionData)> VB function implements (and inverts) the Creator 2 < VERIFY Account Created ACTION >action
+    'Step1 : Store data locally
+
+		'VERIFY_Account_Created_ACTION= micWarning
+ 
+		user_actionDatamessage = actionData("user_actionDatamessage")
+		user_actionDatamessage_VALUE_TYPE = actionData("user_actionDatamessage_VALUE_TYPE")
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'VERIFY_Account_Created_ACTION=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < VERIFY Account Created ACTION>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function CLICK_RIGISTER_BUTTON_Register_Signup(guiContext,guiData)
+    'This <CLICK_RIGISTER_BUTTON_Register_Signup(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < CLICK RIGISTER BUTTON Register Signup >action
+    'Step1 : Store data locally
+
+		'CLICK_RIGISTER_BUTTON_Register_Signup= micWarning
+ 
+		Register_Signup_RIGISTER_BUTTON = guiContext("Register_Signup_RIGISTER_BUTTON")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Register").Page("Signup").WebButton("RIGISTER").Click 
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'CLICK_RIGISTER_BUTTON_Register_Signup=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < CLICK RIGISTER BUTTON Register Signup>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function VERIFY_Reject_Register_ACTION(user,actionData)
+    'This <VERIFY_Reject_Register_ACTION(user,actionData)> VB function implements (and inverts) the Creator 2 < VERIFY Reject Register ACTION >action
+    'Step1 : Store data locally
+
+		'VERIFY_Reject_Register_ACTION= micWarning
+ 
+		user_actionDataFirst_Name = actionData("user_actionDataFirst_Name")
+		user_actionDataFirst_Name_VALUE_TYPE = actionData("user_actionDataFirst_Name_VALUE_TYPE")
+		user_actionDataLast_Name = actionData("user_actionDataLast_Name")
+		user_actionDataLast_Name_VALUE_TYPE = actionData("user_actionDataLast_Name_VALUE_TYPE")
+		user_actionDataAdress = actionData("user_actionDataAdress")
+		user_actionDataAdress_VALUE_TYPE = actionData("user_actionDataAdress_VALUE_TYPE")
+		user_actionDataCity = actionData("user_actionDataCity")
+		user_actionDataCity_VALUE_TYPE = actionData("user_actionDataCity_VALUE_TYPE")
+		user_actionDataState = actionData("user_actionDataState")
+		user_actionDataState_VALUE_TYPE = actionData("user_actionDataState_VALUE_TYPE")
+		user_actionDataZip_Code = actionData("user_actionDataZip_Code")
+		user_actionDataZip_Code_VALUE_TYPE = actionData("user_actionDataZip_Code_VALUE_TYPE")
+		user_actionDataPhone = actionData("user_actionDataPhone")
+		user_actionDataPhone_VALUE_TYPE = actionData("user_actionDataPhone_VALUE_TYPE")
+		user_actionDataSSN = actionData("user_actionDataSSN")
+		user_actionDataSSN_VALUE_TYPE = actionData("user_actionDataSSN_VALUE_TYPE")
+		user_actionDataUserName = actionData("user_actionDataUserName")
+		user_actionDataUserName_VALUE_TYPE = actionData("user_actionDataUserName_VALUE_TYPE")
+		user_actionDataPassword = actionData("user_actionDataPassword")
+		user_actionDataPassword_VALUE_TYPE = actionData("user_actionDataPassword_VALUE_TYPE")
+		user_actionDataConfirm = actionData("user_actionDataConfirm")
+		user_actionDataConfirm_VALUE_TYPE = actionData("user_actionDataConfirm_VALUE_TYPE")
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'VERIFY_Reject_Register_ACTION=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < VERIFY Reject Register ACTION>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function CLICK_Admin_Page_HYPERLINK_Parabank_Welcome(guiContext,guiData)
+    'This <CLICK_Admin_Page_HYPERLINK_Parabank_Welcome(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < CLICK Admin Page HYPERLINK Parabank Welcome >action
+    'Step1 : Store data locally
+
+		'CLICK_Admin_Page_HYPERLINK_Parabank_Welcome= micWarning
+ 
+		Parabank_Welcome_Admin_Page_HYPERLINK = guiContext("Parabank_Welcome_Admin_Page_HYPERLINK")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Parabank Welcome").Page(""Parabank Welcome"").Link("Admin Page").Click 
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'CLICK_Admin_Page_HYPERLINK_Parabank_Welcome=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < CLICK Admin Page HYPERLINK Parabank Welcome>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function FILL_Application_Setting_FORM_Administration(guiContext,guiData)
+    'This <FILL_Application_Setting_FORM_Administration(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < FILL Application Setting FORM Administration >action
+    'Step1 : Store data locally
+
+		'FILL_Application_Setting_FORM_Administration= micWarning
+ 
+		Administration_Application_Setting_Loan_Provider_DROPDOWN = guiData("Administration_Application_Setting_Loan_Provider_DROPDOWN")
+		Administration_Application_Setting_Loan_Provider_DROPDOWN_VALUE_TYPE = guiData("Administration_Application_Setting_Loan_Provider_DROPDOWN_VALUE_TYPE")
+		Administration_Application_Setting_Loan_Provider_DROPDOWN_STATUS = guiData("Administration_Application_Setting_Loan_Provider_DROPDOWN_STATUS")
+		Administration_Application_Setting_Loan_Processor_DROPDOWN = guiData("Administration_Application_Setting_Loan_Processor_DROPDOWN")
+		Administration_Application_Setting_Loan_Processor_DROPDOWN_VALUE_TYPE = guiData("Administration_Application_Setting_Loan_Processor_DROPDOWN_VALUE_TYPE")
+		Administration_Application_Setting_Loan_Processor_DROPDOWN_STATUS = guiData("Administration_Application_Setting_Loan_Processor_DROPDOWN_STATUS")
+		Administration_Application_Setting_Threshold_TEXTBOX = guiData("Administration_Application_Setting_Threshold_TEXTBOX")
+		Administration_Application_Setting_Threshold_TEXTBOX_VALUE_TYPE = guiData("Administration_Application_Setting_Threshold_TEXTBOX_VALUE_TYPE")
+		Administration_Application_Setting_Threshold_TEXTBOX_STATUS = guiData("Administration_Application_Setting_Threshold_TEXTBOX_STATUS")
+		Administration_Application_Setting_Initial_Balance_TEXTBOX = guiData("Administration_Application_Setting_Initial_Balance_TEXTBOX")
+		Administration_Application_Setting_Initial_Balance_TEXTBOX_VALUE_TYPE = guiData("Administration_Application_Setting_Initial_Balance_TEXTBOX_VALUE_TYPE")
+		Administration_Application_Setting_Initial_Balance_TEXTBOX_STATUS = guiData("Administration_Application_Setting_Initial_Balance_TEXTBOX_STATUS")
+		Administration_Application_Setting_Min_Balance_TEXTBOX = guiData("Administration_Application_Setting_Min_Balance_TEXTBOX")
+		Administration_Application_Setting_Min_Balance_TEXTBOX_VALUE_TYPE = guiData("Administration_Application_Setting_Min_Balance_TEXTBOX_VALUE_TYPE")
+		Administration_Application_Setting_Min_Balance_TEXTBOX_STATUS = guiData("Administration_Application_Setting_Min_Balance_TEXTBOX_STATUS")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Administration").Page("Application Setting").WebList("Loan Provider").Select  Administration_Application_Setting_Loan_Provider_DROPDOWN
+		'Browser("Administration").Page("Application Setting").WebList("Loan Processor").Select  Administration_Application_Setting_Loan_Processor_DROPDOWN
+		'Browser("Administration").Page("Application Setting").WebEdit("Threshold").Set  Administration_Application_Setting_Threshold_TEXTBOX
+		'Browser("Administration").Page("Application Setting").WebEdit("Initial Balance").Set  Administration_Application_Setting_Initial_Balance_TEXTBOX
+		'Browser("Administration").Page("Application Setting").WebEdit("Min Balance").Set  Administration_Application_Setting_Min_Balance_TEXTBOX
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'FILL_Application_Setting_FORM_Administration=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < FILL Application Setting FORM Administration>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function FILL_Signup_FORM_Register(guiContext,guiData)
+    'This <FILL_Signup_FORM_Register(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < FILL Signup FORM Register >action
+    'Step1 : Store data locally
+
+		'FILL_Signup_FORM_Register= micWarning
+ 
+		Register_Signup_First_Name_TEXTBOX = guiData("Register_Signup_First_Name_TEXTBOX")
+		Register_Signup_First_Name_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_First_Name_TEXTBOX_VALUE_TYPE")
+		Register_Signup_First_Name_TEXTBOX_STATUS = guiData("Register_Signup_First_Name_TEXTBOX_STATUS")
+		Register_Signup_Last_Name_TEXTBOX = guiData("Register_Signup_Last_Name_TEXTBOX")
+		Register_Signup_Last_Name_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Last_Name_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Last_Name_TEXTBOX_STATUS = guiData("Register_Signup_Last_Name_TEXTBOX_STATUS")
+		Register_Signup_Address_TEXTBOX = guiData("Register_Signup_Address_TEXTBOX")
+		Register_Signup_Address_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Address_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Address_TEXTBOX_STATUS = guiData("Register_Signup_Address_TEXTBOX_STATUS")
+		Register_Signup_City_TEXTBOX = guiData("Register_Signup_City_TEXTBOX")
+		Register_Signup_City_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_City_TEXTBOX_VALUE_TYPE")
+		Register_Signup_City_TEXTBOX_STATUS = guiData("Register_Signup_City_TEXTBOX_STATUS")
+		Register_Signup_State_TEXTBOX = guiData("Register_Signup_State_TEXTBOX")
+		Register_Signup_State_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_State_TEXTBOX_VALUE_TYPE")
+		Register_Signup_State_TEXTBOX_STATUS = guiData("Register_Signup_State_TEXTBOX_STATUS")
+		Register_Signup_Zip_Code_TEXTBOX = guiData("Register_Signup_Zip_Code_TEXTBOX")
+		Register_Signup_Zip_Code_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Zip_Code_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Zip_Code_TEXTBOX_STATUS = guiData("Register_Signup_Zip_Code_TEXTBOX_STATUS")
+		Register_Signup_Phone_TEXTBOX = guiData("Register_Signup_Phone_TEXTBOX")
+		Register_Signup_Phone_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Phone_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Phone_TEXTBOX_STATUS = guiData("Register_Signup_Phone_TEXTBOX_STATUS")
+		Register_Signup_SSN_TEXTBOX = guiData("Register_Signup_SSN_TEXTBOX")
+		Register_Signup_SSN_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_SSN_TEXTBOX_VALUE_TYPE")
+		Register_Signup_SSN_TEXTBOX_STATUS = guiData("Register_Signup_SSN_TEXTBOX_STATUS")
+		Register_Signup_Username_TEXTBOX = guiData("Register_Signup_Username_TEXTBOX")
+		Register_Signup_Username_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Username_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Username_TEXTBOX_STATUS = guiData("Register_Signup_Username_TEXTBOX_STATUS")
+		Register_Signup_Password_TEXTBOX = guiData("Register_Signup_Password_TEXTBOX")
+		Register_Signup_Password_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Password_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Password_TEXTBOX_STATUS = guiData("Register_Signup_Password_TEXTBOX_STATUS")
+		Register_Signup_Confirm_TEXTBOX = guiData("Register_Signup_Confirm_TEXTBOX")
+		Register_Signup_Confirm_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Confirm_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Confirm_TEXTBOX_STATUS = guiData("Register_Signup_Confirm_TEXTBOX_STATUS")
+		Register_Signup_Dob_TEXTBOX = guiData("Register_Signup_Dob_TEXTBOX")
+		Register_Signup_Dob_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Dob_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Dob_TEXTBOX_STATUS = guiData("Register_Signup_Dob_TEXTBOX_STATUS")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Register").Page("Signup").WebEdit("First Name").Set  Register_Signup_First_Name_TEXTBOX
+		'Browser("Register").Page("Signup").WebEdit("Last Name").Set  Register_Signup_Last_Name_TEXTBOX
+		'Browser("Register").Page("Signup").WebEdit("Address").Set  Register_Signup_Address_TEXTBOX
+		'Browser("Register").Page("Signup").WebEdit("City").Set  Register_Signup_City_TEXTBOX
+		'Browser("Register").Page("Signup").WebEdit("State").Set  Register_Signup_State_TEXTBOX
+		'Browser("Register").Page("Signup").WebEdit("Zip Code").Set  Register_Signup_Zip_Code_TEXTBOX
+		'Browser("Register").Page("Signup").WebEdit("Phone").Set  Register_Signup_Phone_TEXTBOX
+		'Browser("Register").Page("Signup").WebEdit("SSN").Set  Register_Signup_SSN_TEXTBOX
+		'Browser("Register").Page("Signup").WebEdit("Username").Set  Register_Signup_Username_TEXTBOX
+		'Browser("Register").Page("Signup").WebEdit("Password").Set  Register_Signup_Password_TEXTBOX
+		'Browser("Register").Page("Signup").WebEdit("Confirm").Set  Register_Signup_Confirm_TEXTBOX
+		'Browser("Register").Page("Signup").WebEdit("Dob").Set  Register_Signup_Dob_TEXTBOX
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'FILL_Signup_FORM_Register=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < FILL Signup FORM Register>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function VERIFY_Transaction_Error__ACTION(user,actionData)
+    'This <VERIFY_Transaction_Error__ACTION(user,actionData)> VB function implements (and inverts) the Creator 2 < VERIFY Transaction Error  ACTION >action
+    'Step1 : Store data locally
+
+		'VERIFY_Transaction_Error__ACTION= micWarning
+ 
+		user_actionDataError = actionData("user_actionDataError")
+		user_actionDataError_VALUE_TYPE = actionData("user_actionDataError_VALUE_TYPE")
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'VERIFY_Transaction_Error__ACTION=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < VERIFY Transaction Error  ACTION>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function VERIFY_Account_Services_SCREEN(guiContext,guiData)
+    'This <VERIFY_Account_Services_SCREEN(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < VERIFY Account Services SCREEN >action
+    'Step1 : Store data locally
+
+		'VERIFY_Account_Services_SCREEN= micWarning
+ 
+		Account_Services_Open_New_Account_HYPERLINK_STATUS = guiData("Account_Services_Open_New_Account_HYPERLINK_STATUS")
+		Account_Services_Account_Overview_HYPERLINK_STATUS = guiData("Account_Services_Account_Overview_HYPERLINK_STATUS")
+		Account_Services_Transfer_Funds_HYPERLINK_STATUS = guiData("Account_Services_Transfer_Funds_HYPERLINK_STATUS")
+		Account_Services_Bill_Pay_HYPERLINK_STATUS = guiData("Account_Services_Bill_Pay_HYPERLINK_STATUS")
+		Account_Services_Find_Transactions_HYPERLINK_STATUS = guiData("Account_Services_Find_Transactions_HYPERLINK_STATUS")
+		Account_Services_Update_Contact_Info_HYPERLINK_STATUS = guiData("Account_Services_Update_Contact_Info_HYPERLINK_STATUS")
+		Account_Services_Request_Loan_HYPERLINK_STATUS = guiData("Account_Services_Request_Loan_HYPERLINK_STATUS")
+		Account_Services_Log_Out_HYPERLINK_STATUS = guiData("Account_Services_Log_Out_HYPERLINK_STATUS")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Account Services").Page(""Account Services"").Link("Open New Account").Check  Checkpoint("Open New Account")
+		'Browser("Account Services").Page(""Account Services"").Link("Account Overview").Check  Checkpoint("Account Overview")
+		'Browser("Account Services").Page(""Account Services"").Link("Transfer Funds").Check  Checkpoint("Transfer Funds")
+		'Browser("Account Services").Page(""Account Services"").Link("Bill Pay").Check  Checkpoint("Bill Pay")
+		'Browser("Account Services").Page(""Account Services"").Link("Find Transactions").Check  Checkpoint("Find Transactions")
+		'Browser("Account Services").Page(""Account Services"").Link("Update Contact Info").Check  Checkpoint("Update Contact Info")
+		'Browser("Account Services").Page(""Account Services"").Link("Request Loan").Check  Checkpoint("Request Loan")
+		'Browser("Account Services").Page(""Account Services"").Link("Log Out").Check  Checkpoint("Log Out")
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'VERIFY_Account_Services_SCREEN=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < VERIFY Account Services SCREEN>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function PERFORM_enter_URL_ACTION(url,actionData)
+    'This <PERFORM_enter_URL_ACTION(url,actionData)> VB function implements (and inverts) the Creator 2 < PERFORM enter URL ACTION >action
+    'Step1 : Store data locally
+
+		'PERFORM_enter_URL_ACTION= micWarning
+ 
+		url_actionDataurl = actionData("url_actionDataurl")
+		url_actionDataurl_VALUE_TYPE = actionData("url_actionDataurl_VALUE_TYPE")
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'PERFORM_enter_URL_ACTION=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < PERFORM enter URL ACTION>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function FILL_Forgot_Login_info_FORM_Forgot_Login_info(guiContext,guiData)
+    'This <FILL_Forgot_Login_info_FORM_Forgot_Login_info(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < FILL Forgot Login info FORM Forgot Login info >action
+    'Step1 : Store data locally
+
+		'FILL_Forgot_Login_info_FORM_Forgot_Login_info= micWarning
+ 
+		Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_City_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_City_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_City_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_City_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_City_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_City_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_State_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_State_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_State_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_State_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_State_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_State_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX_STATUS")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("First Name").Set  Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("Last Name").Set  Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("Address").Set  Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("City").Set  Forgot_Login_info_Forgot_Login_info_City_TEXTBOX
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("State").Set  Forgot_Login_info_Forgot_Login_info_State_TEXTBOX
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("Zip Code").Set  Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("SSN").Set  Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'FILL_Forgot_Login_info_FORM_Forgot_Login_info=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < FILL Forgot Login info FORM Forgot Login info>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function VERIFY_Register_SCREEN(guiContext,guiData)
+    'This <VERIFY_Register_SCREEN(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < VERIFY Register SCREEN >action
+    'Step1 : Store data locally
+
+		'VERIFY_Register_SCREEN= micWarning
+ 
+		Register_Signup_First_Name_TEXTBOX = guiData("Register_Signup_First_Name_TEXTBOX")
+		Register_Signup_First_Name_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_First_Name_TEXTBOX_VALUE_TYPE")
+		Register_Signup_First_Name_TEXTBOX_STATUS = guiData("Register_Signup_First_Name_TEXTBOX_STATUS")
+		Register_Signup_Last_Name_TEXTBOX = guiData("Register_Signup_Last_Name_TEXTBOX")
+		Register_Signup_Last_Name_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Last_Name_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Last_Name_TEXTBOX_STATUS = guiData("Register_Signup_Last_Name_TEXTBOX_STATUS")
+		Register_Signup_Address_TEXTBOX = guiData("Register_Signup_Address_TEXTBOX")
+		Register_Signup_Address_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Address_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Address_TEXTBOX_STATUS = guiData("Register_Signup_Address_TEXTBOX_STATUS")
+		Register_Signup_City_TEXTBOX = guiData("Register_Signup_City_TEXTBOX")
+		Register_Signup_City_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_City_TEXTBOX_VALUE_TYPE")
+		Register_Signup_City_TEXTBOX_STATUS = guiData("Register_Signup_City_TEXTBOX_STATUS")
+		Register_Signup_State_TEXTBOX = guiData("Register_Signup_State_TEXTBOX")
+		Register_Signup_State_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_State_TEXTBOX_VALUE_TYPE")
+		Register_Signup_State_TEXTBOX_STATUS = guiData("Register_Signup_State_TEXTBOX_STATUS")
+		Register_Signup_Zip_Code_TEXTBOX = guiData("Register_Signup_Zip_Code_TEXTBOX")
+		Register_Signup_Zip_Code_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Zip_Code_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Zip_Code_TEXTBOX_STATUS = guiData("Register_Signup_Zip_Code_TEXTBOX_STATUS")
+		Register_Signup_Phone_TEXTBOX = guiData("Register_Signup_Phone_TEXTBOX")
+		Register_Signup_Phone_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Phone_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Phone_TEXTBOX_STATUS = guiData("Register_Signup_Phone_TEXTBOX_STATUS")
+		Register_Signup_SSN_TEXTBOX = guiData("Register_Signup_SSN_TEXTBOX")
+		Register_Signup_SSN_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_SSN_TEXTBOX_VALUE_TYPE")
+		Register_Signup_SSN_TEXTBOX_STATUS = guiData("Register_Signup_SSN_TEXTBOX_STATUS")
+		Register_Signup_Username_TEXTBOX = guiData("Register_Signup_Username_TEXTBOX")
+		Register_Signup_Username_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Username_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Username_TEXTBOX_STATUS = guiData("Register_Signup_Username_TEXTBOX_STATUS")
+		Register_Signup_Password_TEXTBOX = guiData("Register_Signup_Password_TEXTBOX")
+		Register_Signup_Password_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Password_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Password_TEXTBOX_STATUS = guiData("Register_Signup_Password_TEXTBOX_STATUS")
+		Register_Signup_Confirm_TEXTBOX = guiData("Register_Signup_Confirm_TEXTBOX")
+		Register_Signup_Confirm_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Confirm_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Confirm_TEXTBOX_STATUS = guiData("Register_Signup_Confirm_TEXTBOX_STATUS")
+		Register_Signup_RIGISTER_BUTTON_STATUS = guiData("Register_Signup_RIGISTER_BUTTON_STATUS")
+		Register_Signup_Dob_TEXTBOX = guiData("Register_Signup_Dob_TEXTBOX")
+		Register_Signup_Dob_TEXTBOX_VALUE_TYPE = guiData("Register_Signup_Dob_TEXTBOX_VALUE_TYPE")
+		Register_Signup_Dob_TEXTBOX_STATUS = guiData("Register_Signup_Dob_TEXTBOX_STATUS")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Register").Page("Signup").WebEdit("First Name").Check  Checkpoint("First Name")
+		'Browser("Register").Page("Signup").WebEdit("Last Name").Check  Checkpoint("Last Name")
+		'Browser("Register").Page("Signup").WebEdit("Address").Check  Checkpoint("Address")
+		'Browser("Register").Page("Signup").WebEdit("City").Check  Checkpoint("City")
+		'Browser("Register").Page("Signup").WebEdit("State").Check  Checkpoint("State")
+		'Browser("Register").Page("Signup").WebEdit("Zip Code").Check  Checkpoint("Zip Code")
+		'Browser("Register").Page("Signup").WebEdit("Phone").Check  Checkpoint("Phone")
+		'Browser("Register").Page("Signup").WebEdit("SSN").Check  Checkpoint("SSN")
+		'Browser("Register").Page("Signup").WebEdit("Username").Check  Checkpoint("Username")
+		'Browser("Register").Page("Signup").WebEdit("Password").Check  Checkpoint("Password")
+		'Browser("Register").Page("Signup").WebEdit("Confirm").Check  Checkpoint("Confirm")
+		'Browser("Register").Page("Signup").WebButton("RIGISTER").Check  Checkpoint("RIGISTER")
+		'Browser("Register").Page("Signup").WebEdit("Dob").Check  Checkpoint("Dob")
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'VERIFY_Register_SCREEN=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < VERIFY Register SCREEN>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function CLICK_FIND_MY_LOGIN_INFO_BUTTON_Forgot_Login_info_Forgot_Login_info(guiContext,guiData)
+    'This <CLICK_FIND_MY_LOGIN_INFO_BUTTON_Forgot_Login_info_Forgot_Login_info(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < CLICK FIND MY LOGIN INFO BUTTON Forgot Login info Forgot Login info >action
+    'Step1 : Store data locally
+
+		'CLICK_FIND_MY_LOGIN_INFO_BUTTON_Forgot_Login_info_Forgot_Login_info= micWarning
+ 
+		Forgot_Login_info_Forgot_Login_info_FIND_MY_LOGIN_INFO_BUTTON = guiContext("Forgot_Login_info_Forgot_Login_info_FIND_MY_LOGIN_INFO_BUTTON")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Forgot Login info").Page("Forgot Login info").WebButton("FIND MY LOGIN INFO").Click 
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'CLICK_FIND_MY_LOGIN_INFO_BUTTON_Forgot_Login_info_Forgot_Login_info=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < CLICK FIND MY LOGIN INFO BUTTON Forgot Login info Forgot Login info>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function VERIFY_Invalid_Register_ACTION(user,actionData)
+    'This <VERIFY_Invalid_Register_ACTION(user,actionData)> VB function implements (and inverts) the Creator 2 < VERIFY Invalid Register ACTION >action
+    'Step1 : Store data locally
+
+		'VERIFY_Invalid_Register_ACTION= micWarning
+ 
+		user_actionDataInvalid_Register = actionData("user_actionDataInvalid_Register")
+		user_actionDataInvalid_Register_VALUE_TYPE = actionData("user_actionDataInvalid_Register_VALUE_TYPE")
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'VERIFY_Invalid_Register_ACTION=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < VERIFY Invalid Register ACTION>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function CLICK_Register_HYPERLINK_Parabank_Welcome_Customer_Login(guiContext,guiData)
+    'This <CLICK_Register_HYPERLINK_Parabank_Welcome_Customer_Login(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < CLICK Register HYPERLINK Parabank Welcome Customer Login >action
+    'Step1 : Store data locally
+
+		'CLICK_Register_HYPERLINK_Parabank_Welcome_Customer_Login= micWarning
+ 
+		Parabank_Welcome_Customer_Login_Register_HYPERLINK = guiContext("Parabank_Welcome_Customer_Login_Register_HYPERLINK")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Parabank Welcome").Page("Customer Login").Link("Register").Click 
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'CLICK_Register_HYPERLINK_Parabank_Welcome_Customer_Login=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < CLICK Register HYPERLINK Parabank Welcome Customer Login>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function VERIFY_Forgot_Login_info_SCREEN(guiContext,guiData)
+    'This <VERIFY_Forgot_Login_info_SCREEN(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < VERIFY Forgot Login info SCREEN >action
+    'Step1 : Store data locally
+
+		'VERIFY_Forgot_Login_info_SCREEN= micWarning
+ 
+		Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_First_Name_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_Last_Name_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_Address_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_City_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_City_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_City_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_City_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_City_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_City_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_State_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_State_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_State_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_State_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_State_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_State_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_Zip_Code_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX = guiData("Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX")
+		Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX_VALUE_TYPE = guiData("Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX_VALUE_TYPE")
+		Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_SSN_TEXTBOX_STATUS")
+		Forgot_Login_info_Forgot_Login_info_FIND_MY_LOGIN_INFO_BUTTON_STATUS = guiData("Forgot_Login_info_Forgot_Login_info_FIND_MY_LOGIN_INFO_BUTTON_STATUS")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("First Name").Check  Checkpoint("First Name")
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("Last Name").Check  Checkpoint("Last Name")
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("Address").Check  Checkpoint("Address")
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("City").Check  Checkpoint("City")
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("State").Check  Checkpoint("State")
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("Zip Code").Check  Checkpoint("Zip Code")
+		'Browser("Forgot Login info").Page("Forgot Login info").WebEdit("SSN").Check  Checkpoint("SSN")
+		'Browser("Forgot Login info").Page("Forgot Login info").WebButton("FIND MY LOGIN INFO").Check  Checkpoint("FIND MY LOGIN INFO")
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'VERIFY_Forgot_Login_info_SCREEN=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < VERIFY Forgot Login info SCREEN>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function VERIFY_Administration_SCREEN(guiContext,guiData)
+    'This <VERIFY_Administration_SCREEN(guiContext,guiData)> VB function implements (and inverts) the Creator 2 < VERIFY Administration SCREEN >action
+    'Step1 : Store data locally
+
+		'VERIFY_Administration_SCREEN= micWarning
+ 
+		Administration_Application_Setting_Loan_Provider_DROPDOWN = guiData("Administration_Application_Setting_Loan_Provider_DROPDOWN")
+		Administration_Application_Setting_Loan_Provider_DROPDOWN_VALUE_TYPE = guiData("Administration_Application_Setting_Loan_Provider_DROPDOWN_VALUE_TYPE")
+		Administration_Application_Setting_Loan_Provider_DROPDOWN_STATUS = guiData("Administration_Application_Setting_Loan_Provider_DROPDOWN_STATUS")
+		Administration_Application_Setting_Loan_Processor_DROPDOWN = guiData("Administration_Application_Setting_Loan_Processor_DROPDOWN")
+		Administration_Application_Setting_Loan_Processor_DROPDOWN_VALUE_TYPE = guiData("Administration_Application_Setting_Loan_Processor_DROPDOWN_VALUE_TYPE")
+		Administration_Application_Setting_Loan_Processor_DROPDOWN_STATUS = guiData("Administration_Application_Setting_Loan_Processor_DROPDOWN_STATUS")
+		Administration_Application_Setting_Threshold_TEXTBOX = guiData("Administration_Application_Setting_Threshold_TEXTBOX")
+		Administration_Application_Setting_Threshold_TEXTBOX_VALUE_TYPE = guiData("Administration_Application_Setting_Threshold_TEXTBOX_VALUE_TYPE")
+		Administration_Application_Setting_Threshold_TEXTBOX_STATUS = guiData("Administration_Application_Setting_Threshold_TEXTBOX_STATUS")
+		Administration_Application_Setting_Initial_Balance_TEXTBOX = guiData("Administration_Application_Setting_Initial_Balance_TEXTBOX")
+		Administration_Application_Setting_Initial_Balance_TEXTBOX_VALUE_TYPE = guiData("Administration_Application_Setting_Initial_Balance_TEXTBOX_VALUE_TYPE")
+		Administration_Application_Setting_Initial_Balance_TEXTBOX_STATUS = guiData("Administration_Application_Setting_Initial_Balance_TEXTBOX_STATUS")
+		Administration_Application_Setting_Min_Balance_TEXTBOX = guiData("Administration_Application_Setting_Min_Balance_TEXTBOX")
+		Administration_Application_Setting_Min_Balance_TEXTBOX_VALUE_TYPE = guiData("Administration_Application_Setting_Min_Balance_TEXTBOX_VALUE_TYPE")
+		Administration_Application_Setting_Min_Balance_TEXTBOX_STATUS = guiData("Administration_Application_Setting_Min_Balance_TEXTBOX_STATUS")
+		Administration_Application_Setting_SUBMIT_BUTTON_STATUS = guiData("Administration_Application_Setting_SUBMIT_BUTTON_STATUS")
+
+     'Step 2: Identify the actual objects for GUI context and put the proper VB code	or just uncomment this following example code if correct:			'
+
+		'Browser("Administration").Page("Application Setting").WebList("Loan Provider").Check  Checkpoint("Loan Provider")
+		'Browser("Administration").Page("Application Setting").WebList("Loan Processor").Check  Checkpoint("Loan Processor")
+		'Browser("Administration").Page("Application Setting").WebEdit("Threshold").Check  Checkpoint("Threshold")
+		'Browser("Administration").Page("Application Setting").WebEdit("Initial Balance").Check  Checkpoint("Initial Balance")
+		'Browser("Administration").Page("Application Setting").WebEdit("Min Balance").Check  Checkpoint("Min Balance")
+		'Browser("Administration").Page("Application Setting").WebButton("SUBMIT").Check  Checkpoint("SUBMIT")
+
+		'Execute executeString
+
+		'Set Correct Return Code
+
+		'VERIFY_Administration_SCREEN=micPass/ micFailed/ micWarning / micDone
+
+		f_WriteToDriverLogFile("Warning : Reached InComplete function < VERIFY Administration SCREEN>- Please complete the implementation and remove this line once finished")
+
+End Function
+
+Function global_Circumstance(extCircumstance)
+	Select Case extCircumstance
+	End Select
+End Function
+
+Function f_WriteToDriverLogFile(LogMsg)
+	Const ForAppending = 8
+	Set oFSO = CreateObject("Scripting.FileSystemObject")
+	'Check if file already exists. If not, create it.
+	If oFSO.FileExists(Environment.Value("ResultDir") & "Conformiq QTP Test Execution log file.txt") = False Then
+		Set oFile = Nothing
+		Set oFile = oFSO.CreateTextFile(Environment.Value("ResultDir") & "Conformiq QTP Test Execution log file.txt",True)
+		Set oFile = Nothing
+		End If
+		Set oTxtFile = Nothing
+	Set oTxtFile = oFSO.OpenTextFile(Environment.Value("ResultDir") & "Conformiq QTP Test Execution log file.txt", ForAppending, True)
+	oTxtFile.WriteLine LogMsg
+	print LogMsg
+End Function
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'' ROUTINES FOR HANDLING TEST INFRASTRUCTURE
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+Function START_TEST_SUITE(DcName)
+   ' Insert here the implementation
+End Function
+
+Function END_TEST_SUITE()
+    ' Insert here the implementation
+End Function
+
+Function START_TEST_CASE( testId, testName ) 
+	  ' This function is called at beginning of every test and should be used to realize any system configuration or set up required to run a test.
+    ' Insert here the implementation
+End Function
+
+Function END_TEST_CASE( testId, testName ) 
+	  ' This function is called at the end of every test and should be used to realize any system configuration or set up required to run a test.
+    ' Insert here the implementation
+End Function
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+'' END OF CONFORMIQ GENERATED TEST HARNESS code
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+

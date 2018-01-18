@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.conformiq:RequirementRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq="http://www.conformiq.com/EMF/2/Requirements" lastUpdate="1507115538593">
+  <requirementGraphRoots state="UNCHANGED" identifier="com.conformiq.requirements.rally-rally1.rallydev.com-Workspace 1-Parabank Demo-root-req" source="//@requirementProviders.0" externalIdentifier="-1">
+    <name value="Rally Requirements(Parabank Demo)"/>
+    <priority/>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.rally-rally1.rallydev.com-Workspace 1-Parabank Demo-US9-req" source="//@requirementProviders.0" externalIdentifier="US9">
+      <name value="Sample user story"/>
+      <priority/>
+    </subrequirements>
+  </requirementGraphRoots>
+  <requirementGraphRoots state="UNCHANGED" identifier="com.conformiq.designer.extensions.alm-http://qc-122.conformiq.com/qcbin/-DEFAULT-Alexis-root" source="//@requirementProviders.1">
+    <name value="HP QC/ALM Requirements (Alexis:Requirements\CallWrap)"/>
+    <priority/>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.designer.extensions.alm-http://qc-122.conformiq.com/qcbin/-DEFAULT-Alexis-requirement-33" source="//@requirementProviders.1" externalIdentifier="33">
+      <name value="Add Name Icon"/>
+      <priority/>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.designer.extensions.alm-http://qc-122.conformiq.com/qcbin/-DEFAULT-Alexis-requirement-34" source="//@requirementProviders.1" externalIdentifier="34">
+      <name value="No data to Submit Alert"/>
+      <priority/>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.designer.extensions.alm-http://qc-122.conformiq.com/qcbin/-DEFAULT-Alexis-requirement-36" source="//@requirementProviders.1" externalIdentifier="36">
+      <name value="Invalid SRF after adding LOB Alert"/>
+      <priority/>
+    </subrequirements>
+  </requirementGraphRoots>
+  <requirementGraphRoots state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-root" source="//@requirementProviders.2">
+    <name value="Excel Requirements (Parabank_UI Model Requirements.xls)"/>
+    <priority/>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-1" source="//@requirementProviders.2" externalIdentifier="1">
+      <name value="Create New Account"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-1.1" source="//@requirementProviders.2" externalIdentifier="1.1">
+        <name value="Reject existing user accounts"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-1.2" source="//@requirementProviders.2" externalIdentifier="1.2">
+        <name value="Reject incomplete fields"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-1.3" source="//@requirementProviders.2" externalIdentifier="1.3">
+        <name value="Accept valid fields"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-1.4" source="//@requirementProviders.2" externalIdentifier="1.4">
+        <name value="Reject non matching password"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-2" source="//@requirementProviders.2" externalIdentifier="2">
+      <name value="Perform transfer"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-3" source="//@requirementProviders.2" externalIdentifier="3">
+      <name value="View/Update Contact Information"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-4" source="//@requirementProviders.2" externalIdentifier="4">
+      <name value="Request Loan (Accept/Deny)"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-5" source="//@requirementProviders.2" externalIdentifier="5">
+      <name value="Bill Payment"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-5.1" source="//@requirementProviders.2" externalIdentifier="5.1">
+        <name value="All Fileds are required and should not be empty"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-5.2" source="//@requirementProviders.2" externalIdentifier="5.2">
+        <name value="Bill Pay Amount should be less than the account balance "/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-5.3" source="//@requirementProviders.2" externalIdentifier="5.3">
+        <name value="Bill Payment Successfull and amount debit from account balance"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-5.4" source="//@requirementProviders.2" externalIdentifier="5.4">
+        <name value="Account number and Verify Account number should match"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-6" source="//@requirementProviders.2" externalIdentifier="6">
+      <name value="Find Transaction by Amount"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-6.1" source="//@requirementProviders.2" externalIdentifier="6.1">
+        <name value="Find Transaction by Amount"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-6.2" source="//@requirementProviders.2" externalIdentifier="6.2">
+        <name value="Amount is Required"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-7" source="//@requirementProviders.2" externalIdentifier="7">
+      <name value="Find Transaction by Date Range"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-7.1" source="//@requirementProviders.2" externalIdentifier="7.1">
+        <name value="Find Transaction by Date Range"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-7.2" source="//@requirementProviders.2" externalIdentifier="7.2">
+        <name value=" From date and To date are required"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-8" source="//@requirementProviders.2" externalIdentifier="8">
+      <name value="Invalid Login when user enters username which does not exist."/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-9" source="//@requirementProviders.2" externalIdentifier="9">
+      <name value="Find Transaction by Date"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-9.1" source="//@requirementProviders.2" externalIdentifier="9.1">
+        <name value="Find Transaction by Date"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-9.2" source="//@requirementProviders.2" externalIdentifier="9.2">
+        <name value="Date is required"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-10" source="//@requirementProviders.2" externalIdentifier="10">
+      <name value="Open New Account and Requesting Loan"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-11" source="//@requirementProviders.2" externalIdentifier="11">
+      <name value="Forgot Password"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-12" source="//@requirementProviders.2" externalIdentifier="12">
+      <name value="Transaction by ID"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-12.1" source="//@requirementProviders.2" externalIdentifier="12.1">
+        <name value="Find Transaction by ID"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-12.2" source="//@requirementProviders.2" externalIdentifier="12.2">
+        <name value="Transaction ID is required"/>
+        <priority/>
+        <fields key="Type">
+          <value value="requirement"/>
+        </fields>
+        <fields key="mandatory">
+          <value value="Mandatory"/>
+        </fields>
+      </subrequirements>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-13" source="//@requirementProviders.2" externalIdentifier="13">
+      <name value="Adminstritation"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-14" source="//@requirementProviders.2" externalIdentifier="14">
+      <name value="Accounts Overview"/>
+      <priority/>
+      <fields key="Type">
+        <value value="folder"/>
+      </fields>
+      <fields key="mandatory">
+        <value value="Mandatory"/>
+      </fields>
+    </subrequirements>
+    <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-15" source="//@requirementProviders.2" externalIdentifier="15">
+      <name value="hello 1"/>
+      <priority/>
+      <fields key="Type">
+        <value value="Defects"/>
+      </fields>
+      <fields key="mandatory">
+        <value value=""/>
+      </fields>
+      <subrequirements state="UNCHANGED" identifier="com.conformiq.requirements.excel-D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls-req-15.1" source="//@requirementProviders.2" externalIdentifier="15.1">
+        <name value="Hello 2"/>
+        <priority/>
+        <fields key="Type">
+          <value value="Defects"/>
+        </fields>
+        <fields key="mandatory">
+          <value value=""/>
+        </fields>
+      </subrequirements>
+    </subrequirements>
+  </requirementGraphRoots>
+  <requirementProviders identifier="com.conformiq.requirements.rally" name="Rally Requirements(Parabank Demo)">
+    <properties key="&amp;Workspace:" value="Workspace 1"/>
+    <properties key="&amp;Http Proxy Host:"/>
+    <properties key="&amp;User name:" value="jani.koivulainen@conformiq.com"/>
+    <properties key="&amp;Rally Host Name:" value="rally1.rallydev.com"/>
+    <properties key="&amp;User  story:" value="\User stories"/>
+    <properties key="&amp;Http Proxy Computer Name"/>
+    <properties key="&amp;Http Proxy Port:"/>
+    <properties key="&amp;Http Proxy Domain Name:"/>
+    <properties key="&amp;Connect through proxy" value="false"/>
+    <properties key="&amp;Project:" value="Parabank Demo"/>
+    <properties key="&amp;Http Proxy Password:"/>
+    <properties key="&amp;Password:" value="MajorExistingE4StateDiagrams#!"/>
+    <properties key="&amp;Http Proxy Username:"/>
+  </requirementProviders>
+  <requirementProviders identifier="com.conformiq.designer.extensions.alm" name="HP QC/ALM Requirements (Alexis:Requirements\CallWrap)">
+    <properties key="alm.project" value="Alexis"/>
+    <properties key="alm.password" value="$CQ1$rO0ABXQADWMwbmYwcm0xcXdhcmU="/>
+    <properties key="alm.requirement.fields" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAB3CAAAABAAAAAAeA=="/>
+    <properties key="alm.domain" value="DEFAULT"/>
+    <properties key="alm.username" value="siteadmin"/>
+    <properties key="alm.location" value="http://qc-122.conformiq.com/qcbin/"/>
+    <properties key="alm.requirement.namingtemplate" value="${fields[&quot;Name&quot;]}"/>
+    <properties key="aml.requirement.priorities" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAB3CAAAABAAAAAAeA=="/>
+    <properties key="alm.requirement.folder" value="rO0ABXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAACdwQAAAACdAAMUmVxdWlyZW1lbnRzdAAIQ2FsbFdyYXB4"/>
+  </requirementProviders>
+  <requirementProviders identifier="com.conformiq.requirements.excel" name="Excel Requirements (Parabank_UI Model Requirements.xls)">
+    <properties key="fileName" value="D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls"/>
+  </requirementProviders>
+</com.conformiq:RequirementRepository>

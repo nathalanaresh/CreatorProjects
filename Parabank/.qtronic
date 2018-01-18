@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.conformiq:ConformiqProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq="http://www.conformiq.com/models/2/project" name="Parabank" propertiesVersion="1001">
+  <designConfigurations name="DC" id="2fc44a4d4bea9d80d213bf5d17e7ba4b">
+    <scripterConfigurations jarPath="Conformiq_Designer/QTPUFTVBScripter.jar" pluginName="QTPUFTVBScripter">
+      <scripterPropertyCategories name="Output">
+        <categoryProperties key="Path" value="VB QTPUFT Framework"/>
+        <categoryProperties key="Generate test harness files" value="true"/>
+        <categoryProperties key="Overwrite test harness files" value="false"/>
+        <categoryProperties key="Generate test step logging" value="true"/>
+        <categoryProperties key="Generate requirements logging" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Template">
+        <categoryProperties key="Path" value="VB QTPUFT Framework/Template"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/QTPUFTExcelScripter.jar" pluginName="QTPUFTExcelScripter" enabled="true" sequenceNumber="1">
+      <scripterPropertyCategories name="Output">
+        <categoryProperties key="Path" value="XLS QTPUFT Framework"/>
+        <categoryProperties key="Generate test harness files" value="true"/>
+        <categoryProperties key="Overwrite test harness files" value="false"/>
+        <categoryProperties key="Generate test step logging" value="true"/>
+        <categoryProperties key="Generate requirements logging" value="true"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/ExcelScripter.jar" pluginName="ExcelScripter" enabled="true" sequenceNumber="2">
+      <scripterPropertyCategories name="General">
+        <categoryProperties key="Output file" value="ExcelTestSuite.xls"/>
+        <categoryProperties key="Auto-resize Excel output column width" value="false"/>
+        <categoryProperties key="Template file" value="ExcelTemplate.xls"/>
+        <categoryProperties key="Generate QC compatible default template file" value="false"/>
+        <categoryProperties key="Mapping file" value="ExcelMappings.xls"/>
+        <categoryProperties key="Configuration message type"/>
+        <categoryProperties key="Verdict values" value="Open, Pass, Fail, Not_Executable"/>
+        <categoryProperties key="Create separate traceability matrix for body coverage" value="false"/>
+        <categoryProperties key="Merge steps with no verification point(s) with following step(s)" value="false"/>
+        <categoryProperties key="Merge steps with no action(s) with preceding step(s)" value="false"/>
+        <categoryProperties key="Omit information about where a requirement was included" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Mapping">
+        <categoryProperties key="Custom mapping source"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Textual messages">
+        <categoryProperties key="No action" value="No action"/>
+        <categoryProperties key="No errors can be observed at the SUT" value="No errors can be observed at the SUT"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/QCALMScripter.jar" pluginName="QCALMScripter" enabled="true" sequenceNumber="3">
+      <scripterPropertyCategories name="Access Configuration">
+        <categoryProperties key="Url" value="http://127.0.0.1/qcbin/"/>
+        <categoryProperties key="Username"/>
+        <categoryProperties key="Password"/>
+        <categoryProperties key="Domain"/>
+        <categoryProperties key="Project"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test Rendering Settings">
+        <categoryProperties key="Mapping file" value="ExcelMappings.xls"/>
+        <categoryProperties key="Custom field mapping file" value="CustomFieldMappings.xls"/>
+        <categoryProperties key="Export as ASCIIMSC" value="false"/>
+        <categoryProperties key="Merge steps with no verification point(s) with following step(s)" value="false"/>
+        <categoryProperties key="Merge steps with no action(s) with preceding step(s)" value="false"/>
+        <categoryProperties key="Omit information about where a requirement was included" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Mapping">
+        <categoryProperties key="Custom mapping source"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Textual messages">
+        <categoryProperties key="No action" value="No action"/>
+        <categoryProperties key="No errors can be observed at the SUT" value="No errors can be observed at the SUT"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Upload Settings">
+        <categoryProperties key="Test case status" value="Design"/>
+        <categoryProperties key="Test plan target folder"/>
+        <categoryProperties key="Use trash can folder for incompatible tests" value="false"/>
+        <categoryProperties key="Add tests to test lab" value="false"/>
+        <categoryProperties key="Test lab target folder"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Advanced Settings">
+        <categoryProperties key="Always connect through the COM interface" value="false"/>
+        <categoryProperties key="Display debug messages during the export process" value="false"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test Case Selection">
+        <categoryProperties key="Report requirement coverage only from test case body" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test Dependency">
+        <categoryProperties key="Export tests with dependency and precondition relation" value="false"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/RallyScripter.jar" pluginName="RallyScripter" enabled="true" sequenceNumber="4">
+      <scripterPropertyCategories name="Rally Service">
+        <categoryProperties key="Username"/>
+        <categoryProperties key="Password"/>
+        <categoryProperties key="Rally host name" value="rally1.rallydev.com"/>
+        <categoryProperties key="Workspace"/>
+        <categoryProperties key="Project"/>
+        <categoryProperties key="Test folder"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Additional Test Properties">
+        <categoryProperties key="Tags"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Proxy Settings">
+        <categoryProperties key="Connect through proxy" value="false"/>
+        <categoryProperties key="HTTP Proxy Host"/>
+        <categoryProperties key="HTTP Proxy Port"/>
+        <categoryProperties key="Username"/>
+        <categoryProperties key="Password"/>
+        <categoryProperties key="Computer Name"/>
+        <categoryProperties key="Windows Domain"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Step Mappings">
+        <categoryProperties key="Mapping file" value="ExcelMappings.xls"/>
+        <categoryProperties key="Merge steps with no verification point(s) with following step(s)" value="false"/>
+        <categoryProperties key="Merge steps with no action(s) with preceding step(s)" value="false"/>
+        <categoryProperties key="Omit information about where a requirement was included" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Mapping">
+        <categoryProperties key="Custom mapping source"/>
+        <categoryProperties key="Custom field mappings" value="CustomFields.xls"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Textual messages">
+        <categoryProperties key="No action" value="No action"/>
+        <categoryProperties key="No errors can be observed at the SUT" value="No errors can be observed at the SUT"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test Dependency">
+        <categoryProperties key="Export tests with dependency and precondition relation" value="false"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Troubleshooting">
+        <categoryProperties key="Log file"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/SeleniumJavaScripter.jar" pluginName="SeleniumJavaScripter" enabled="true" sequenceNumber="5">
+      <scripterPropertyCategories name="Preferences">
+        <categoryProperties key="Output folder" value="Selenium Java"/>
+        <categoryProperties key="Root package" value="src"/>
+        <categoryProperties key="Test suite name" value="TestSuite"/>
+        <categoryProperties key="Append timestamp to the output folder" value="false"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <scripterConfigurations jarPath="Conformiq_Designer/ToscaScripter.jar" pluginName="ToscaScripter" enabled="true" sequenceNumber="6">
+      <scripterPropertyCategories name="General">
+        <categoryProperties key="Tosca REST Service URL"/>
+        <categoryProperties key="Tosca workspace name"/>
+        <categoryProperties key="User name" value="Admin"/>
+        <categoryProperties key="Password"/>
+        <categoryProperties key="Output folder for Tosca test cases" value="Conformiq Generated Tests"/>
+        <categoryProperties key="Overwrite existing test case folder" value="false"/>
+        <categoryProperties key="Stop on unsupported item" value="false"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Test execution control">
+        <categoryProperties key="Reusable TestStepBlock for test setup"/>
+        <categoryProperties key="Reusable TestStepBlock for test teardown"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Troubleshooting">
+        <categoryProperties key="Log file"/>
+        <categoryProperties key="Show debug messages on Progress Panel" value="false"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+    <coverageSettings key="ad-node._VREccIOnEeWaMp3LzUsxUQ._e3-ECIbCEeW92sfYjieRQw"/>
+    <coverageSettings key="data.!data.ad _VREccIOnEeWaMp3LzUsxUQ _O7dTUIOpEeWaMp3LzUsxUQ.invocation _SXNBcIOpEeWaMp3LzUsxUQ.matching _SXNBcYOpEeWaMp3LzUsxUQ.data _UkFvxYOpEeWaMp3LzUsxUQ" value="BLOCK"/>
+    <coverageSettings key="data.!data.ad _VREccIOnEeWaMp3LzUsxUQ _O7dTUIOpEeWaMp3LzUsxUQ.invocation _SXNBcIOpEeWaMp3LzUsxUQ.matching _SXNBcYOpEeWaMp3LzUsxUQ.data _sZZUEI2HEeeFdIJu9kgsAQ" value="BLOCK"/>
+    <coverageSettings key="group.custom.requirement.Find Transaction by Date"/>
+    <coverageSettings key="requirement.!requirement.ad _VREccIOnEeWaMp3LzUsxUQ _B4xOMIOrEeWaMp3LzUsxUQ.invocation _JEPj4IRPEeW-udd9UKa5JQ.Forgot Password" value="BLOCK"/>
+    <coverageSettings key="requirement.!requirement.ad _VREccIOnEeWaMp3LzUsxUQ _CxP3oIbHEeW92sfYjieRQw.invocation _CvJhsIbOEeW92sfYjieRQw.Bill Payment/Account number and Verify Account number should match"/>
+    <coverageSettings key="requirement.!requirement.ad _VREccIOnEeWaMp3LzUsxUQ _e3-EAIbCEeW92sfYjieRQw.invocation _I1IhEIeVEeWMtdb9-XPc_A.Accounts Overview" value="BLOCK"/>
+    <coverageSettings key="requirement.!requirement.ad _VREccIOnEeWaMp3LzUsxUQ _sKf1kIRHEeW-udd9UKa5JQ.invocation _Dxw9oIRPEeW-udd9UKa5JQ.Adminstritation"/>
+  </designConfigurations>
+  <projectProperties key="CreatorDataDistribution" value="false"/>
+  <projectProperties key="IntelligentTestCaseNaming" value="false"/>
+  <projectProperties key="LookAheadDepth" value="16"/>
+  <projectProperties key="MainActivityDiagram" value="model/Activity Diagram.ad"/>
+  <projectProperties key="OnlyFinalizedRuns" value="true"/>
+  <projectProperties key="TestCaseIndexOffset" value="0"/>
+  <projectProperties key="TestCaseNamePrefix" value="Test Case "/>
+  <projectProperties key="TestCaseOrdering" value="SHORTEST_TEST_FIRST"/>
+  <projectProperties key="TestGenTimeLimit" value="0"/>
+  <projectProperties key="TestGenerationStopCondition" value="REPEATABLE_TEST_SET"/>
+  <projectProperties key="TestSelection" value="FEWEST_TEST_STEPS_TO_TARGETS"/>
+  <requirementProviders xmi:id="_f7UEgKjrEeeW2okV7e-G2w" identifier="com.conformiq.designer.extensions.alm" name="HP QC/ALM Requirements (Alexis:Requirements\CallWrap)">
+    <properties key="alm.domain" value="DEFAULT"/>
+    <properties key="alm.location" value="http://qc-122.conformiq.com/qcbin/"/>
+    <properties key="alm.password" value="$CQ1$rO0ABXQADWMwbmYwcm0xcXdhcmU="/>
+    <properties key="alm.project" value="Alexis"/>
+    <properties key="alm.requirement.fields" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAB3CAAAABAAAAAAeA=="/>
+    <properties key="alm.requirement.folder" value="rO0ABXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAACdwQAAAACdAAMUmVxdWlyZW1lbnRzdAAIQ2FsbFdyYXB4"/>
+    <properties key="alm.requirement.namingtemplate" value="${fields[&quot;Name&quot;]}"/>
+    <properties key="alm.username" value="siteadmin"/>
+    <properties key="aml.requirement.priorities" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAB3CAAAABAAAAAAeA=="/>
+  </requirementProviders>
+  <requirementProviders xmi:id="_25Eu0KjtEeeW2okV7e-G2w" identifier="com.conformiq.requirements.excel" name="Excel Requirements (Parabank_UI Model Requirements.xls)">
+    <properties key="fileName" value="D:/Conformiq/Parasoft/Parabank_UI Model Requirements.xls"/>
+  </requirementProviders>
+</com.conformiq:ConformiqProject>

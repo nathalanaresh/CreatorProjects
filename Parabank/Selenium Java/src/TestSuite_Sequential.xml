@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" verbose="1">
+ <test name="TestCase1" >
+    <classes>
+      <class name="testsuite.Test_Case_1"/>
+    </classes>
+ </test>
+ <test name="TestCase2" >
+    <classes>
+      <class name="testsuite.Test_Case_2"/>
+    </classes>
+ </test>
+ <test name="TestCase3" >
+    <classes>
+      <class name="testsuite.Test_Case_3"/>
+    </classes>
+ </test>
+ <test name="TestCase4" >
+    <classes>
+      <class name="testsuite.Test_Case_4"/>
+    </classes>
+ </test>
+ <test name="TestCase5" >
+    <classes>
+      <class name="testsuite.Test_Case_5"/>
+    </classes>
+ </test>
+ <test name="TestCase6" >
+    <classes>
+      <class name="testsuite.Test_Case_6"/>
+    </classes>
+ </test>
+ <test name="TestCase7" >
+    <classes>
+      <class name="testsuite.Test_Case_7"/>
+    </classes>
+ </test>
+ <test name="TestCase8" >
+    <classes>
+      <class name="testsuite.Test_Case_8"/>
+    </classes>
+ </test>
+ <test name="TestCase9" >
+    <classes>
+      <class name="testsuite.Test_Case_9"/>
+    </classes>
+ </test>
+ <test name="TestCase10" >
+    <classes>
+      <class name="testsuite.Test_Case_10"/>
+    </classes>
+ </test>
+ <test name="TestCase11" >
+    <classes>
+      <class name="testsuite.Test_Case_11"/>
+    </classes>
+ </test>
+ <test name="TestCase12" >
+    <classes>
+      <class name="testsuite.Test_Case_12"/>
+    </classes>
+ </test>
+ <test name="TestCase13" >
+    <classes>
+      <class name="testsuite.Test_Case_13"/>
+    </classes>
+ </test>
+ <test name="TestCase14" >
+    <classes>
+      <class name="testsuite.Test_Case_14"/>
+    </classes>
+ </test>
+ <test name="TestCase15" >
+    <classes>
+      <class name="testsuite.Test_Case_15"/>
+    </classes>
+ </test>
+ <test name="TestCase16" >
+    <classes>
+      <class name="testsuite.Test_Case_16"/>
+    </classes>
+ </test>
+ <test name="TestCase17" >
+    <classes>
+      <class name="testsuite.Test_Case_17"/>
+    </classes>
+ </test>
+ <test name="TestCase18" >
+    <classes>
+      <class name="testsuite.Test_Case_18"/>
+    </classes>
+ </test>
+ <test name="TestCase19" >
+    <classes>
+      <class name="testsuite.Test_Case_19"/>
+    </classes>
+ </test>
+ <test name="TestCase20" >
+    <classes>
+      <class name="testsuite.Test_Case_20"/>
+    </classes>
+ </test>
+ <test name="TestCase21" >
+    <classes>
+      <class name="testsuite.Test_Case_21"/>
+    </classes>
+ </test>
+ <test name="TestCase22" >
+    <classes>
+      <class name="testsuite.Test_Case_22"/>
+    </classes>
+ </test>
+ <test name="TestCase23" >
+    <classes>
+      <class name="testsuite.Test_Case_23"/>
+    </classes>
+ </test>
+ <test name="TestCase24" >
+    <classes>
+      <class name="testsuite.Test_Case_24"/>
+    </classes>
+ </test>
+ <test name="TestCase25" >
+    <classes>
+      <class name="testsuite.Test_Case_25"/>
+    </classes>
+ </test>
+</suite>

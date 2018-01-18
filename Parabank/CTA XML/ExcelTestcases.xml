@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project id="4a9157c5acb74d8890a00d60570a4b6e" name="ExcelTestcases" dbversion="2">
+  <autoconfig>
+    <automationtype id="6532b4798e5846868a74c1995955bf0d" name="Selenium" content="Object, Locator Type, Action, Value, Run, Verdict" />
+    <automationtype id="a63a9c22e74143b1a835502ae8ed3fab" name="QTP" content="Object, Action, Value, Run, Verdict" />
+  </autoconfig>
+  <requirements />
+  <keywords>
+    <keyword id="3a3763595f134423bd621ef17ba52fad" name="Enter URL" type="Automatic">
+      <parameters />
+      <description>
+        <step id="59b3c8a11c9841d6a1ce95504d22520a" seqno="1">
+          <action>Enter URL</action>
+          <observation>Application displays Login screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="967c4718851945039bb595841a7f7dd9" name="Fill Login form in Login screen entering Valid User3 in User name textbox ente" type="Automatic">
+      <parameters />
+      <description>
+        <step id="b9b589d8e73a4e1890d630bcd8e78215" seqno="1">
+          <action>Fill Login form in Login screen entering "Valid User3" in User name textbox entering "Valid Password" in Password textboxClick Login button in the Login screen</action>
+          <observation>Application displays Home screen without any Loan link enabled</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="b08c86d154894f5ca06b581f043ddfff" name="Fill Login form in Login screen entering Valid User1 in User name textbox ente" type="Automatic">
+      <parameters />
+      <description>
+        <step id="4a5989467ca24a1f8687182997266bfe" seqno="1">
+          <action>Fill Login form in Login screen entering "Valid User1" in User name textbox entering "Valid Password" in Password textboxClick Login button in the Login screen</action>
+          <observation>Application displays Home screen Loan hyperlink is visible</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="3d84ca7072b5464fbdf04ee1b61906fa" name="Click Loan hyperlink in the Home screen" type="Automatic">
+      <parameters />
+      <description>
+        <step id="acf15bd25440468a9dc79065b1e34105" seqno="1">
+          <action>Click Loan hyperlink in the Home screen</action>
+          <observation>Application displays Loan screen where in Search Criteria form Loan # textbox is visible Review Type textbox is visible Review Status textbox is visible Review Reason textbox is visible Rep Name textbox is visible Responsible Party textbox is visible Responsible Party Family textbox is visible</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="0a98f4f6a14d48c0933d29f1e0559c43" name="Fill Search Criteria form in Loan screen entering  in Loan   textbox entering" type="Automatic">
+      <parameters />
+      <description>
+        <step id="7e7a7dcc2cf04a1ba42bc9ae490fc71a" seqno="1">
+          <action>Fill Search Criteria form in Loan screen entering "" in Loan # textbox entering " " in Review Type textbox entering "Review Status" in Review Status textboxClick Apply button in the Loan screen</action>
+          <observation>Error message should be displayed for mandatory field Review Type</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="bb23d0c0dcb043e0a6dff027be55f343" name="Fill Search Criteria form in Loan screen entering  in Loan   textbox entering 1" type="Automatic">
+      <parameters />
+      <description>
+        <step id="ec4b670b9fae49ab90ce16852193be3a" seqno="1">
+          <action>Fill Search Criteria form in Loan screen entering "" in Loan # textbox entering "Review Type" in Review Type textbox entering " " in Review Status textboxClick Apply button in the Loan screen</action>
+          <observation>Error message should be displayed for mandatory field Review Status</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="fa92a3c2033c4d5f85953c171f630c13" name="Fill Search Criteria form in Loan screen entering  in Loan   textbox entering 2" type="Automatic">
+      <parameters />
+      <description>
+        <step id="6e855cd2c52a4770951ec8217f4ab0f8" seqno="1">
+          <action>Fill Search Criteria form in Loan screen entering "" in Loan # textbox entering " " in Review Type textbox entering " " in Review Status textboxClick Apply button in the Loan screen</action>
+          <observation>Error message should be displayed when the search criteria details are not specified.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="e3965ea0566e483a894244f8fc4d6cef" name="Fill Login form in Login screen entering Valid User2 in User name textbox ente" type="Automatic">
+      <parameters />
+      <description>
+        <step id="3e5db281186740e1ad7c2154a416d8db" seqno="1">
+          <action>Fill Login form in Login screen entering "Valid User2" in User name textbox entering "Valid Password" in Password textboxClick Login button in the Login screen</action>
+          <observation>Application displays Home screen Loan hyperlink is visible</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="32504b3717d8404bab0af1b0e1d0ac65" name="Click Loan hyperlink in the Home screen 1" type="Automatic">
+      <parameters />
+      <description>
+        <step id="7a65bae73786444a8d55ff407544cf0d" seqno="1">
+          <action>Click Loan hyperlink in the Home screen</action>
+          <observation>Application displays Loan screen where in Search Criteria form Loan # textbox is visible Review Type textbox is visible Review Status textbox is visible Review Reason textbox is visible Rep Name textbox is visible Responsible Party textbox is visible Responsible Party Family textbox is visible Manager/Director textbox is visible Underwriter textbox is visible</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="f2c6c9b04e1b4ad0a078c802a0ed8164" name="Fill Search Criteria form in Loan screen entering Review Type in Review Type t" type="Automatic">
+      <parameters />
+      <description>
+        <step id="0ff7b0069be64c5b88baf2cf0b198b23" seqno="1">
+          <action>Fill Search Criteria form in Loan screen entering "Review Type" in Review Type textbox entering "Review Status" in Review Status textboxClick Apply button in the Loan screen</action>
+          <observation>Search results should be displayed with the following information:Loan #Review #</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="28576e1c099148c2993d145c394ad5cf" name="Fetch the results from the database using the query Select   from loan details t" type="Automatic">
+      <parameters />
+      <description>
+        <step id="8b9ee592c3a24505a049626e67960f1f" seqno="1">
+          <action>Fetch the results from the database using the query:Select * from loan details table where loan number is XXX</action>
+          <observation>Validate the data base results against the UI results.</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="3832b1146eaf4bec82f2fb45485b7cf1" name="Select the loan from the search results and verify Utility under related Action" type="Automatic">
+      <parameters />
+      <description>
+        <step id="53fc9bd598ce464da9b74004d4b09323" seqno="1">
+          <action>Select the loan from the search results and verify Utility under related Action section is enabled</action>
+          <observation>Under related Action section Utility Selection with dropdown is enabled</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="7656b720ab104f75b98f22caf146268e" name="Fill Utility Selection form in Loan screen selecting Comments from Related Act" type="Automatic">
+      <parameters />
+      <description>
+        <step id="3cbfee2e1a8c4ab490d05d3395270cd7" seqno="1">
+          <action>Fill Utility Selection form in Loan screen selecting "Comments" from Related Action dropdownClick Submit button in the Loan screen</action>
+          <observation>Application displays Commenting screen Loan # label is set to "LoanNumber"</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="3c15656ba0094d6b9f5a90768f782b03" name="Fill Comments form in Commenting screen entering Test Comment in Comments text" type="Automatic">
+      <parameters />
+      <description>
+        <step id="1d1d33d2b4c244f3b11f220bd84596ff" seqno="1">
+          <action>Fill Comments form in Commenting screen entering "Test Comment" in Comments textboxClick Save &amp; Submit button in the Commenting screen</action>
+          <observation>Application displays Loan screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="e54008bc76bf4908a174cf3ee3ba5dac" name="Fill Utility Selection form in Loan screen selecting Comments from Related Act 1" type="Automatic">
+      <parameters />
+      <description>
+        <step id="0680dedbc6c2499095d47ab1af1885e2" seqno="1">
+          <action>Fill Utility Selection form in Loan screen selecting "Comments" from Related Action dropdown</action>
+          <observation>Application displays Commenting screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="62f28213809846e9bc01133b9d9694af" name="Fill Search Criteria form in Loan screen entering Loan Number in Loan   textbo" type="Automatic">
+      <parameters />
+      <description>
+        <step id="1da107364b8d45ca8b81280752487517" seqno="1">
+          <action>Fill Search Criteria form in Loan screen entering "Loan Number" in Loan # textbox entering "" in Review Type textboxClick Apply button in the Loan screen</action>
+          <observation>Search results should be displayed with the following information:Loan #Review #</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="581548e1b9684b8fa495ed556cfcd6a5" name="Fill Utility Selection form in Loan screen selecting Mortgage Flags from Relat" type="Automatic">
+      <parameters />
+      <description>
+        <step id="6f9dadac8dd74330bf01fb37c3d45037" seqno="1">
+          <action>Fill Utility Selection form in Loan screen selecting "Mortgage Flags" from Related Action dropdown</action>
+          <observation>Application displays Mortgage Flags screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="1fe3ad4bf2494adb8cf5b1955835c6f4" name="Fill Utility Selection form in Loan screen selecting Manual Extend from Relate" type="Automatic">
+      <parameters />
+      <description>
+        <step id="2f0c6085cfba4615a427664e92abb1d9" seqno="1">
+          <action>Fill Utility Selection form in Loan screen selecting "Manual Extend" from Related Action dropdown</action>
+          <observation>Application displays Manual Extend screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="151100f4d6e348b6ba6df38c2d05eee2" name="Fill Search Criteria form in Loan screen entering Loan Number in Loan   textbo 1" type="Automatic">
+      <parameters />
+      <description>
+        <step id="9201bd3d5baf41d883b1ddc424fab2af" seqno="1">
+          <action>Fill Search Criteria form in Loan screen entering "Loan Number" in Loan # textbox entering "" in Review Type textboxClick Apply button in the Loan screen</action>
+          <observation>Search results should be displayed with the following information:Loan #</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="ef8b2753dd974fb0a28819d99ed05d76" name="Fill Utility Selection form in Loan screen selecting Deficiencies from Related" type="Automatic">
+      <parameters />
+      <description>
+        <step id="8ee6779cb36545febe7be7347b58391a" seqno="1">
+          <action>Fill Utility Selection form in Loan screen selecting "Deficiencies" from Related Action dropdown</action>
+          <observation>Application displays Deficiencies screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+  </keywords>
+  <testsuites>
+    <testsuite id="750261a8070d432185e067fc56c4a793" name="Test cases">
+      <description id="e9bc8050ed314cffadb019472ac8dfc7">Test cases</description>
+      <test id="8d87f68af641442fb11bc570fa9c5fcc" name="ST_REQID_Test Case Number1_N">
+        <description id="a17ab7722dc6438cb13448c4e976472a">This test case is to verify that the Valid user3 will not able to view the Loan link</description>
+        <teststep id="ff16caff98144990916aebf9d8ce01df" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="427a71effa704c83b023e198d1f5b806" type="keyword" targetid="967c4718851945039bb595841a7f7dd9" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="78381f3d3f9f4d3e88bbe272485d11b5" name="ST_REQID_Test Case Number2_N">
+        <description id="a8c17596a29347bba0a424850b2afad7">This test case is to verify that the system shall display error message when the search criteria is not valid</description>
+        <teststep id="2c0ba702dcc64be49a02541d668b472a" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="2f303987b70a447a837f91cb1ab9b022" type="keyword" targetid="b08c86d154894f5ca06b581f043ddfff" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="023b13a849824f3ab167898cef73d3d1" type="keyword" targetid="3d84ca7072b5464fbdf04ee1b61906fa" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="19accc2acb454f049859be0eabe1c4fe" type="keyword" targetid="0a98f4f6a14d48c0933d29f1e0559c43" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="bdeb23fa0ad244d780d41f3acc67f5b3" name="ST_REQID_Test Case Number3_N">
+        <description id="47ccf510923f45109333c0c7bb0f6637">This test case is to verify that the system shall display error message when the search criteria is not valid</description>
+        <teststep id="02d5c25e342546dda83a81dc97a93184" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="8f1ada9182e54ae2908fd41c61295097" type="keyword" targetid="b08c86d154894f5ca06b581f043ddfff" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="978ca49263c747a8b5a76330a03c53b0" type="keyword" targetid="3d84ca7072b5464fbdf04ee1b61906fa" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="665199e4986b4a1a9e0c1d0a141a47a9" type="keyword" targetid="bb23d0c0dcb043e0a6dff027be55f343" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="28736a1aa92740cd8163d71fa9925140" name="ST_REQID_Test Case Number4_N">
+        <description id="201a19d6421a468e8edf882bbee44a8a">This test case is to verify that the system shall display error message when the search criteria is not valid</description>
+        <teststep id="73b631dd52964d3b833c4bed9b37a4d5" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="e7a614e68111424088f91daedecc93f9" type="keyword" targetid="b08c86d154894f5ca06b581f043ddfff" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="08691d3d70ac412b85ca952ea1fbf8ba" type="keyword" targetid="3d84ca7072b5464fbdf04ee1b61906fa" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="01ef5f0345164977af3409a33e11a43c" type="keyword" targetid="fa92a3c2033c4d5f85953c171f630c13" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="8095b35e38514adbb9907368baeecd46" name="ST_REQID_Test Case Number5_N">
+        <description id="3be70b946bdb483d95cc7d857d521ec6">This test case is to verify that the system shall display error message when the search criteria is not valid</description>
+        <teststep id="a2570efcfffd4c04ace427660ba109da" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="0e5ed24d468343b8a765ed51c1105633" type="keyword" targetid="e3965ea0566e483a894244f8fc4d6cef" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="3c6c7a08608a4d0ab35dbb5021481273" type="keyword" targetid="32504b3717d8404bab0af1b0e1d0ac65" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="2d79e6b54d274ba0b12f039f1ab64c47" type="keyword" targetid="0a98f4f6a14d48c0933d29f1e0559c43" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="3b710a3f121d403081eec708c1cac60c" name="ST_REQID_Test Case Number6_N">
+        <description id="8f01d0d89a8a46cb86ac36111f9e4493">This test case is to verify that the system shall display error message when the search criteria is not valid</description>
+        <teststep id="e70a4d02587142d7be0cd87a3c9f62c9" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="668cf4759af54a848c913e4960a5d6cd" type="keyword" targetid="e3965ea0566e483a894244f8fc4d6cef" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="1ef25b86ef9c4931824e0076722bb885" type="keyword" targetid="32504b3717d8404bab0af1b0e1d0ac65" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="a26e091266924a67bfb8287371ee9322" type="keyword" targetid="bb23d0c0dcb043e0a6dff027be55f343" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="dfd8229162b9499ba756c42b1b5049d3" name="ST_REQID_Test Case Number7_N">
+        <description id="ac8900f4a3e64a9a950b7fee1e8f787a">This test case is to verify that the system shall display error message when the search criteria is not valid</description>
+        <teststep id="7071a5695963456db3232505a0a336e6" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="d7ee961695ff44aba79b4679e8c81649" type="keyword" targetid="e3965ea0566e483a894244f8fc4d6cef" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="7076f225a995427a994dc1bd3496145f" type="keyword" targetid="32504b3717d8404bab0af1b0e1d0ac65" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="7ceb598a42e04814b4d02d8dfb652d8c" type="keyword" targetid="fa92a3c2033c4d5f85953c171f630c13" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="1085668db633493eaae747db84d0841f" name="ST_REQID_Test Case Number8_P">
+        <description id="6b436b1979a54c029faa8d972bce4ff4">This test case is to verify that the system shall allow Valid User1 to navigate to Comments page for the selected loan</description>
+        <teststep id="be85bc0ad8874186879d2fb5e7c29745" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="0ef899fea20548b1930058883f19c6ce" type="keyword" targetid="b08c86d154894f5ca06b581f043ddfff" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="e6e43ea9e0a8497db2674ce48b2c5439" type="keyword" targetid="3d84ca7072b5464fbdf04ee1b61906fa" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="1021f7bba4214b3095743c5e3505a01b" type="keyword" targetid="f2c6c9b04e1b4ad0a078c802a0ed8164" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="9795b0a7a58845bdb309945b54119f4c" type="keyword" targetid="28576e1c099148c2993d145c394ad5cf" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="eba9ad6d4509421ab64e7ce97387876d" type="keyword" targetid="3832b1146eaf4bec82f2fb45485b7cf1" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="8f938844e46343b090eef8027f216221" type="keyword" targetid="7656b720ab104f75b98f22caf146268e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="6128e12d117b4f7498c0c35b6d01734a" type="keyword" targetid="3c15656ba0094d6b9f5a90768f782b03" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="daf2633b091f4092b463dee6d2b169ca" type="keyword" targetid="e54008bc76bf4908a174cf3ee3ba5dac" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="5cfa5556276c48a695fe52a70b0010cc" name="ST_REQID_Test Case Number9_P">
+        <description id="62282e200beb49b4bc9cbfb607838b3e">This test case is to verify that the system shall allow Valid User2 to navigate to Comments page for the selected loan</description>
+        <teststep id="843f4a1ea3824bd4bc5858f342f8b4dd" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="093000d6efd0453b86f3b10be376a6b9" type="keyword" targetid="e3965ea0566e483a894244f8fc4d6cef" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="4ba044a2672149f8a2ef055c5bb0c702" type="keyword" targetid="32504b3717d8404bab0af1b0e1d0ac65" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="3b6816103aca4eaa94c1abe4be46f979" type="keyword" targetid="f2c6c9b04e1b4ad0a078c802a0ed8164" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="b03eb23997eb4555a19a6709997a5d4f" type="keyword" targetid="28576e1c099148c2993d145c394ad5cf" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="d7f0ecfe879f4c44b6c427927fd58c7e" type="keyword" targetid="3832b1146eaf4bec82f2fb45485b7cf1" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="263877fcc2e64065b3df20f3e1d93587" type="keyword" targetid="7656b720ab104f75b98f22caf146268e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="9fd638c63d93440090b0f4b2e8e7214f" type="keyword" targetid="3c15656ba0094d6b9f5a90768f782b03" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="3eda75a4a6a243b8a3de786897887720" type="keyword" targetid="e54008bc76bf4908a174cf3ee3ba5dac" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="b8f01dbfd6dc404aace2a470ab78c840" name="ST_REQID_Test Case Number10_P">
+        <description id="2e76f318353e48ac943f173da915b706">This test case is to verify that the system shall allow Valid User1 to navigate to Mortgage Flags for the selected loan</description>
+        <teststep id="8240967820f24ef1843870a8426bef60" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="dfcf7b42b05a410bbdd6539dda5cd9b2" type="keyword" targetid="b08c86d154894f5ca06b581f043ddfff" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="f0e635f3ef7e4bc1871d4d73b8a6e4c0" type="keyword" targetid="3d84ca7072b5464fbdf04ee1b61906fa" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="d64bdf732db24723aa601512f1e16f70" type="keyword" targetid="62f28213809846e9bc01133b9d9694af" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="54e730b433324fdba1c03000a0f05138" type="keyword" targetid="28576e1c099148c2993d145c394ad5cf" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="e345fe3a1792407b8f6b3d0eddad44b7" type="keyword" targetid="3832b1146eaf4bec82f2fb45485b7cf1" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="c464155d862d4dbb89310e5f671907d1" type="keyword" targetid="7656b720ab104f75b98f22caf146268e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="1423a69843404ca3966083f9e3360aa6" type="keyword" targetid="3c15656ba0094d6b9f5a90768f782b03" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="7ec4f3d98d704924840a323acd02a602" type="keyword" targetid="581548e1b9684b8fa495ed556cfcd6a5" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="f00e792328d949778e960eec562a84c9" name="ST_REQID_Test Case Number11_P">
+        <description id="b77a0f7bde744aea92b6574687703722">This test case is to verify that the system shall allow Valid User2 to navigate to Mortgage Flags for the selected loan</description>
+        <teststep id="d4aed78c40964bf9a4d0de64c89f3f36" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="f9d171e51a864b559939d93fe624dee8" type="keyword" targetid="e3965ea0566e483a894244f8fc4d6cef" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="6189d17fd36349b6896802bdde138ee1" type="keyword" targetid="32504b3717d8404bab0af1b0e1d0ac65" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="57ba450c8e5f4cfa961971bbe9f95b77" type="keyword" targetid="62f28213809846e9bc01133b9d9694af" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="48255519dfff4f4e8c78c7879fac567f" type="keyword" targetid="28576e1c099148c2993d145c394ad5cf" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="617c5372b0b7454b87d522864a687f2f" type="keyword" targetid="3832b1146eaf4bec82f2fb45485b7cf1" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="1279ed51faa548d882e465b2db84f27e" type="keyword" targetid="7656b720ab104f75b98f22caf146268e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="6a40393e4d2647249b37e3e1aec12824" type="keyword" targetid="3c15656ba0094d6b9f5a90768f782b03" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="ff69ecc5d6d242a2a131b30ce2b54576" type="keyword" targetid="581548e1b9684b8fa495ed556cfcd6a5" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="c39ae10b1c934c1282261189cfcea757" name="ST_REQID_Test Case Number12_P">
+        <description id="c7dbac39f8f2417abf574269ef4a5263">This test case is to verify that the system shall allow Valid User1 to navigate to Manual extend page for the selected loan</description>
+        <teststep id="c42cec7faaca48c19f31e52980875e8b" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="24a54d0adf3b451cb45d37b6d2c7a507" type="keyword" targetid="b08c86d154894f5ca06b581f043ddfff" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="97b9aa419d4d47b09d7461722c08b971" type="keyword" targetid="3d84ca7072b5464fbdf04ee1b61906fa" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="fb4eaa8b41504d79950aab0e28293325" type="keyword" targetid="62f28213809846e9bc01133b9d9694af" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="233a0c723fb84866bd4425ec03db2a6b" type="keyword" targetid="28576e1c099148c2993d145c394ad5cf" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="ef4ffaf443fb42a5be6b36c6dae91de0" type="keyword" targetid="3832b1146eaf4bec82f2fb45485b7cf1" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="5531d0fdf94b43e1b8b804b282473b30" type="keyword" targetid="7656b720ab104f75b98f22caf146268e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="a7e27d05cf3a44a5b6754a5dd13cf493" type="keyword" targetid="3c15656ba0094d6b9f5a90768f782b03" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="41b3c67104714cd8a919997e4cfcd9f3" type="keyword" targetid="1fe3ad4bf2494adb8cf5b1955835c6f4" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="cc2a30401b76460baa31cd9bba5160be" name="ST_REQID_Test Case Number13_P">
+        <description id="e2e845f8dd1347abaf0bbc4b89c4279f">This test case is to verify that the system shall allow Valid User2 to navigate to Manual extend page for the selected loan</description>
+        <teststep id="cf462668a03b480f917d1e4f6db50793" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="f1549b0bbf0e4cdf9f863128ecd5769e" type="keyword" targetid="e3965ea0566e483a894244f8fc4d6cef" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="1e6035ba5611451c85ca3fc90551c0b0" type="keyword" targetid="32504b3717d8404bab0af1b0e1d0ac65" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="c5e297ea04c6492682c3a7bd66a9ff24" type="keyword" targetid="62f28213809846e9bc01133b9d9694af" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="4cb9331a31b94c26b6878f980b188cc7" type="keyword" targetid="28576e1c099148c2993d145c394ad5cf" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="1a64009108f24aad8aa699a92710c3f2" type="keyword" targetid="3832b1146eaf4bec82f2fb45485b7cf1" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="6ba1b4c9c6ea4b61aa94a7572d3f8cfd" type="keyword" targetid="7656b720ab104f75b98f22caf146268e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="bcc2c752f0034eadb963b91ad62ff5ba" type="keyword" targetid="3c15656ba0094d6b9f5a90768f782b03" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="3da358a5d25f4337ae9d368d763a12f0" type="keyword" targetid="1fe3ad4bf2494adb8cf5b1955835c6f4" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="86f4b5397d484fb49328d39d33347580" name="ST_REQID_Test Case Number14_P">
+        <description id="0eb96846f26b4382b7ad4eefc6878262">This test case is to verify that the system shall allow Valid User1 to navigate to Deficiencies page for the selected loan</description>
+        <teststep id="52646be176ac461fa51595eba92b534d" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="6a2a587a866d424b93429c2f9ce2bdaf" type="keyword" targetid="b08c86d154894f5ca06b581f043ddfff" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="9d1aa4f721304c7bac3c563cbfed5be5" type="keyword" targetid="3d84ca7072b5464fbdf04ee1b61906fa" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="a8f104c3f6054de5949afdf963627694" type="keyword" targetid="151100f4d6e348b6ba6df38c2d05eee2" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="5827abf9d49d4f9ab00900c06855cf0a" type="keyword" targetid="28576e1c099148c2993d145c394ad5cf" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="82b27764f4f84ed4bbe016380a100a3a" type="keyword" targetid="3832b1146eaf4bec82f2fb45485b7cf1" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="a51149f319b641e7a52bce0ada00803a" type="keyword" targetid="7656b720ab104f75b98f22caf146268e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="0ae10c42ca9d4dc8a81a1545a16f924f" type="keyword" targetid="3c15656ba0094d6b9f5a90768f782b03" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="e6aeab03caa6453ebfae48c21d64aba5" type="keyword" targetid="ef8b2753dd974fb0a28819d99ed05d76" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="6e0b7d74a25e4820a6d921740a37e230" name="ST_REQID_Test Case Number15_P">
+        <description id="4eca8bc5e7dc486a8f6bb056f40308eb">This test case is to verify that the system shall allow Valid User2 to navigate to Deficiencies page for the selected loan</description>
+        <teststep id="e039be29d47f47c898f3cb45951b26bf" type="keyword" targetid="3a3763595f134423bd621ef17ba52fad" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="9eb0cb507ad54c089f218d32796bcbe0" type="keyword" targetid="e3965ea0566e483a894244f8fc4d6cef" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="f324a4d60cf14d6d85fdd5e1f3050377" type="keyword" targetid="32504b3717d8404bab0af1b0e1d0ac65" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="f46a383adcfb47f0aeb714fec20fd668" type="keyword" targetid="62f28213809846e9bc01133b9d9694af" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="fd543804b13348d6ac2e9968292ffe73" type="keyword" targetid="28576e1c099148c2993d145c394ad5cf" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="8cbce4d903a2407586ccad4c3dea42a4" type="keyword" targetid="3832b1146eaf4bec82f2fb45485b7cf1" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="3aff5e856d1949fb904586bac53b1830" type="keyword" targetid="7656b720ab104f75b98f22caf146268e" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="c7e97c08cffd42e2a1131acf67dc5c9a" type="keyword" targetid="3c15656ba0094d6b9f5a90768f782b03" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="9676bce3546d44d5b1c4409dfc66beaf" type="keyword" targetid="ef8b2753dd974fb0a28819d99ed05d76" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+    </testsuite>
+  </testsuites>
+</project>

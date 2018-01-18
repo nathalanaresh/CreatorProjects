@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel TestSuite" parallel="methods" thread-count="2">
+ <test name="Parallel TestCase" >
+    <classes>
+      <class name="testsuite.Test_Case_1"/>
+      <class name="testsuite.Test_Case_2"/>
+      <class name="testsuite.Test_Case_3"/>
+      <class name="testsuite.Test_Case_4"/>
+      <class name="testsuite.Test_Case_5"/>
+      <class name="testsuite.Test_Case_6"/>
+      <class name="testsuite.Test_Case_7"/>
+      <class name="testsuite.Test_Case_8"/>
+      <class name="testsuite.Test_Case_9"/>
+      <class name="testsuite.Test_Case_10"/>
+      <class name="testsuite.Test_Case_11"/>
+      <class name="testsuite.Test_Case_12"/>
+      <class name="testsuite.Test_Case_13"/>
+      <class name="testsuite.Test_Case_14"/>
+      <class name="testsuite.Test_Case_15"/>
+      <class name="testsuite.Test_Case_16"/>
+      <class name="testsuite.Test_Case_17"/>
+      <class name="testsuite.Test_Case_18"/>
+      <class name="testsuite.Test_Case_19"/>
+      <class name="testsuite.Test_Case_20"/>
+      <class name="testsuite.Test_Case_21"/>
+      <class name="testsuite.Test_Case_22"/>
+      <class name="testsuite.Test_Case_23"/>
+      <class name="testsuite.Test_Case_24"/>
+      <class name="testsuite.Test_Case_25"/>
+    </classes>
+ </test>
+</suite>
