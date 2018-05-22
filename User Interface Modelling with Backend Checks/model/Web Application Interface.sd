@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/14/StructureDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_ZlZZ0JhpEeOrav2Q0W-smQ" type="Dsl" name="WebApplicationInterface.sd" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_o76Q0JhpEeOrav2Q0W-smQ" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_o7634JhpEeOrav2Q0W-smQ" type="5037"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_o7634ZhpEeOrav2Q0W-smQ" type="7003">
+      <children xmi:type="notation:Node" xmi:id="_wT_RoJhpEeOrav2Q0W-smQ" type="3007">
+        <children xmi:type="notation:DecorationNode" xmi:id="_wUAfwJhpEeOrav2Q0W-smQ" type="5015"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_wUAfwZhpEeOrav2Q0W-smQ" type="7004">
+          <children xmi:type="notation:Shape" xmi:id="_xSh9gJhpEeOrav2Q0W-smQ" type="3010" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_xSikkJhpEeOrav2Q0W-smQ" type="5011"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_xSjLoJhpEeOrav2Q0W-smQ" type="5058"/>
+            <element xmi:type="com.conformiq.creator.structure.dsl:TextBox" href="Web%20Application%20Interface.sl#qml0f837a9cd8f146cea942333524a7bd99"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xSh9gZhpEeOrav2Q0W-smQ" x="7" y="4" width="193" height="25"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_yfNMAJhpEeOrav2Q0W-smQ" type="3010" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_yfNzEJhpEeOrav2Q0W-smQ" type="5011"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_yfNzEZhpEeOrav2Q0W-smQ" type="5058"/>
+            <element xmi:type="com.conformiq.creator.structure.dsl:TextBox" href="Web%20Application%20Interface.sl#qmlb6d3ab57ec8b4e23b832488c599f5b63"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yfNMAZhpEeOrav2Q0W-smQ" x="7" y="40" width="193" height="25"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_wT_RoZhpEeOrav2Q0W-smQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_wT_RophpEeOrav2Q0W-smQ" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_wT_Ro5hpEeOrav2Q0W-smQ"/>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_wT_RpJhpEeOrav2Q0W-smQ"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Form" href="Web%20Application%20Interface.sl#qmlfeddd19fd7334089b7b6a9bb57988d30"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wT_RpZhpEeOrav2Q0W-smQ" x="7" y="4" width="217" height="109"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_z51-AJhpEeOrav2Q0W-smQ" type="3014">
+        <children xmi:type="notation:DecorationNode" xmi:id="_z53MIJhpEeOrav2Q0W-smQ" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_z51-AZhpEeOrav2Q0W-smQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_z51-AphpEeOrav2Q0W-smQ" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_z51-A5hpEeOrav2Q0W-smQ"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Button" href="Web%20Application%20Interface.sl#qmlafe5bf951e224edf98a8fc9f318ba850"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z51-BJhpEeOrav2Q0W-smQ" x="7" y="124" width="217" height="37"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_o76Q0ZhpEeOrav2Q0W-smQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_o76Q0phpEeOrav2Q0W-smQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_o76Q05hpEeOrav2Q0W-smQ"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_o76Q1JhpEeOrav2Q0W-smQ"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="Web%20Application%20Interface.sl#qmlb4f47c5999234e9997fbe947b1df8ace"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o76Q1ZhpEeOrav2Q0W-smQ" x="336" y="84" width="241" height="205"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ZlZZ0ZhpEeOrav2Q0W-smQ"/>
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="Web%20Application%20Interface.sl#/"/>
+</notation:Diagram>

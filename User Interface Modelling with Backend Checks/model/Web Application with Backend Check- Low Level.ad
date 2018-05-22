@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ad="http://www.conformiq.com/emf/14/ActivityDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <ad:ActivityDiagram xmi:id="_LF40wJiUEeO3mf6Bj_6PEQ" type="qml7f4d076269c64ed7b288211d5ef5910f">
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_Q-7EsJiUEeO3mf6Bj_6PEQ" to="_Pp2vMJiUEeO3mf6Bj_6PEQ" from="_M-R5wJiUEeO3mf6Bj_6PEQ"/>
+    <nodes xmi:type="ad:InitialNode" xmi:id="_M-R5wJiUEeO3mf6Bj_6PEQ" name="Initial Node" controlFlowsOut="_Q-7EsJiUEeO3mf6Bj_6PEQ"/>
+    <nodes xmi:type="ad:ActivityNode" xmi:id="_Pp2vMJiUEeO3mf6Bj_6PEQ" name="Enter user info - low level" controlFlowsIn="_Q-7EsJiUEeO3mf6Bj_6PEQ">
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_ACkEQKB2EeOwQq9eQBue_A" methodRef="qmlb4f47c5999234e9997fbe947b1df8ace_Display_Screen">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_ACkEQaB2EeOwQq9eQBue_A">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="_ACkEQqB2EeOwQq9eQBue_A" name="Initial login form state" qmlId="qml5a3fa3630b654a12b1c5158126a7b3af">
+            <fields xmi:type="ad:ValueField" xmi:id="_ACkEQ6B2EeOwQq9eQBue_A" fieldRef="qmlfeddd19fd7334089b7b6a9bb57988d30_Form_Data_Instance">
+              <possibleValues xmi:type="ad:Expression" xmi:id="_ACkERKB2EeOwQq9eQBue_A">
+                <clause xmi:type="ad:FunctionCallClause" xmi:id="_ezTCsEy-EeSA-IGwKDj4yw" methodRef="qmlfeddd19fd7334089b7b6a9bb57988d30_Dont_Care_Value"/>
+              </possibleValues>
+            </fields>
+            <fields xmi:type="ad:ValueField" xmi:id="_ACkETaB2EeOwQq9eQBue_A" fieldRef="qmlfeddd19fd7334089b7b6a9bb57988d30_Form_Widget_Status_Data_Instance">
+              <possibleValues xmi:type="ad:Expression" xmi:id="_ACkETqB2EeOwQq9eQBue_A">
+                <clause xmi:type="ad:InlineValueClause" xmi:id="_ACkET6B2EeOwQq9eQBue_A" name="Pre-input widget status" qmlId="qmlc38b80c757cf4a70a1cbc4c807f3af24">
+                  <fields xmi:type="ad:ValueField" xmi:id="_ACkEUKB2EeOwQq9eQBue_A" fieldRef="qml0f837a9cd8f146cea942333524a7bd99">
+                    <possibleValues xmi:type="ad:Expression" xmi:id="_ACkEUaB2EeOwQq9eQBue_A">
+                      <clause xmi:type="ad:FunctionCallClause" xmi:id="_ACkEUqB2EeOwQq9eQBue_A" methodRef="WS_ENABLED"/>
+                    </possibleValues>
+                  </fields>
+                  <fields xmi:type="ad:ValueField" xmi:id="_ACkEU6B2EeOwQq9eQBue_A" fieldRef="qmlb6d3ab57ec8b4e23b832488c599f5b63">
+                    <possibleValues xmi:type="ad:Expression" xmi:id="_ACkEVKB2EeOwQq9eQBue_A">
+                      <clause xmi:type="ad:FunctionCallClause" xmi:id="_ACkEVaB2EeOwQq9eQBue_A" methodRef="WS_ENABLED"/>
+                    </possibleValues>
+                  </fields>
+                  <type xmi:type="ad:CustomTypeRef" xmi:id="_ACkEVqB2EeOwQq9eQBue_A" idRef="qmlfeddd19fd7334089b7b6a9bb57988d30_Form_Widget_Status_Data"/>
+                </clause>
+              </possibleValues>
+            </fields>
+            <fields xmi:type="ad:ValueField" xmi:id="_ACkEV6B2EeOwQq9eQBue_A" fieldRef="qmlafe5bf951e224edf98a8fc9f318ba850">
+              <possibleValues xmi:type="ad:Expression" xmi:id="_ACkEWKB2EeOwQq9eQBue_A">
+                <clause xmi:type="ad:FunctionCallClause" xmi:id="_ACkEWaB2EeOwQq9eQBue_A" methodRef="WS_ENABLED"/>
+              </possibleValues>
+            </fields>
+            <type xmi:type="ad:CustomTypeRef" xmi:id="_ACkEWqB2EeOwQq9eQBue_A" idRef="qmlb4f47c5999234e9997fbe947b1df8ace"/>
+          </clause>
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_OqsXQJifEeOu0Z9PS8q8GQ" methodRef="qmlddbc221c4b954c6ba8fb1e38183e63a8_Receive_From_qml53c933cd6da342c69254cbe9c301c09c">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_OqsXQZifEeOu0Z9PS8q8GQ">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="_Pg4_cJifEeOu0Z9PS8q8GQ" name="Check processes request" qmlId="qml4811941647e7498893914053b0bd73a3">
+            <fields xmi:type="ad:ValueField" xmi:id="_Pg4_cZifEeOu0Z9PS8q8GQ" fieldRef="qmle8615f5245ce4fbf8f5d476b853f6d97">
+              <possibleValues xmi:type="ad:Expression" xmi:id="_Pg4_cpifEeOu0Z9PS8q8GQ">
+                <clause xmi:type="ad:StringLiteralClause" xmi:id="_QagIAJifEeOu0Z9PS8q8GQ" value="1.1.1.1"/>
+              </possibleValues>
+            </fields>
+            <type xmi:type="ad:CustomTypeRef" xmi:id="_Pg4_dJifEeOu0Z9PS8q8GQ" idRef="qmlddbc221c4b954c6ba8fb1e38183e63a8"/>
+          </clause>
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_UuuWQJifEeOu0Z9PS8q8GQ" methodRef="qml67423982ac3a4eaab63a42c6ba1ae448_Send_To_qmlc510771e986641fe8eccd8b56a55221a">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_UuuWQZifEeOu0Z9PS8q8GQ">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="_VgVZYJifEeOu0Z9PS8q8GQ" name="Check processes response" qmlId="qml43a3f105b5764688bde9cd8e0b002308">
+            <fields xmi:type="ad:ValueField" xmi:id="_VgVZYZifEeOu0Z9PS8q8GQ" fieldRef="qmlc595296b10c84967a2a1bff6f9b391f1">
+              <possibleValues xmi:type="ad:Expression" xmi:id="_VgVZYpifEeOu0Z9PS8q8GQ">
+                <clause xmi:type="ad:StringLiteralClause" xmi:id="_We4sUJifEeOu0Z9PS8q8GQ" value="login"/>
+              </possibleValues>
+            </fields>
+            <fields xmi:type="ad:ValueField" xmi:id="_VgVZZJifEeOu0Z9PS8q8GQ" fieldRef="qml1f8d9be8e0af493da837bd849da20282">
+              <possibleValues xmi:type="ad:Expression" xmi:id="_VgVZZZifEeOu0Z9PS8q8GQ">
+                <clause xmi:type="ad:FunctionCallClause" xmi:id="_VgVZZpifEeOu0Z9PS8q8GQ" methodRef="String_Dont_Care_Value"/>
+              </possibleValues>
+            </fields>
+            <type xmi:type="ad:CustomTypeRef" xmi:id="_VgVZZ5ifEeOu0Z9PS8q8GQ" idRef="qml67423982ac3a4eaab63a42c6ba1ae448"/>
+          </clause>
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_vCi7ABROEeeOYaOtHg1erg" methodRef="managedRequirement">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_vCi7ARROEeeOYaOtHg1erg">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_vCi7AhROEeeOYaOtHg1erg" methodRef="Create_Ad_Hoc_Requirement">
+            <inputArgs xmi:type="ad:Expression" xmi:id="_vCi7AxROEeeOYaOtHg1erg">
+              <clause xmi:type="ad:FunctionCallClause" xmi:id="_vCi7BBROEeeOYaOtHg1erg" methodRef="Create_Requirement_Group">
+                <inputArgs xmi:type="ad:Expression" xmi:id="_vCi7BRROEeeOYaOtHg1erg">
+                  <clause xmi:type="ad:StringLiteralClause" xmi:id="_xQW2YBROEeeOYaOtHg1erg" value="Low Level"/>
+                </inputArgs>
+              </clause>
+            </inputArgs>
+            <inputArgs xmi:type="ad:Expression" xmi:id="_vCi7BxROEeeOYaOtHg1erg">
+              <clause xmi:type="ad:StringLiteralClause" xmi:id="_vCi7CBROEeeOYaOtHg1erg" value="Backend process starts up after starting application"/>
+            </inputArgs>
+          </clause>
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_vCi7CRROEeeOYaOtHg1erg"/>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_-qyJgJiUEeO3mf6Bj_6PEQ" methodRef="qmlfeddd19fd7334089b7b6a9bb57988d30_Fill_Form_Action">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_-qyJgZiUEeO3mf6Bj_6PEQ">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_ftrAQEy-EeSA-IGwKDj4yw" methodRef="qmlfeddd19fd7334089b7b6a9bb57988d30_Dont_Care_Value"/>
+        </inputArgs>
+        <implicitResult xmi:type="ad:ImplicitVariable" xmi:id="_0xuEUBROEeeOYaOtHg1erg" qmlId="qmlae6b0b9fc2bb44c0bccf8515aace49f5"/>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_Al7nkJiVEeO3mf6Bj_6PEQ" methodRef="qmlafe5bf951e224edf98a8fc9f318ba850_Click_Action_qmlb4f47c5999234e9997fbe947b1df8ace"/>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_bVq1EJifEeOu0Z9PS8q8GQ" methodRef="qml3be6dcde2f1d4f99963a4b68e3c579f7_Receive_From_qml53c933cd6da342c69254cbe9c301c09c">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_bVq1EZifEeOu0Z9PS8q8GQ">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="_cDHJ4JifEeOu0Z9PS8q8GQ" name="Check log request" qmlId="qml9f1cffd2f6d34d388941123505fc667d">
+            <fields xmi:type="ad:ValueField" xmi:id="_cDHw8JifEeOu0Z9PS8q8GQ" fieldRef="qml8ae92bb7a6244e7b89e1f587f8908664">
+              <possibleValues xmi:type="ad:Expression" xmi:id="_cDHw8ZifEeOu0Z9PS8q8GQ">
+                <clause xmi:type="ad:StringLiteralClause" xmi:id="_d7wGgJifEeOu0Z9PS8q8GQ" value="1.1.1.1"/>
+              </possibleValues>
+            </fields>
+            <fields xmi:type="ad:ValueField" xmi:id="_cDHw85ifEeOu0Z9PS8q8GQ" fieldRef="qmle87ff9aeb6f8473c9b9f25156f8101f1">
+              <possibleValues xmi:type="ad:Expression" xmi:id="_cDHw9JifEeOu0Z9PS8q8GQ">
+                <clause xmi:type="ad:StringLiteralClause" xmi:id="_c-P8cJifEeOu0Z9PS8q8GQ" value="C:\\Users\\Users.dat"/>
+              </possibleValues>
+            </fields>
+            <type xmi:type="ad:CustomTypeRef" xmi:id="_cDHw9pifEeOu0Z9PS8q8GQ" idRef="qml3be6dcde2f1d4f99963a4b68e3c579f7"/>
+          </clause>
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_iEpOgJifEeOu0Z9PS8q8GQ" methodRef="qml00f8010fb7c24d7795f407152c672de4_Send_To_qmlc510771e986641fe8eccd8b56a55221a">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_iEpOgZifEeOu0Z9PS8q8GQ">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="_iz9LkJifEeOu0Z9PS8q8GQ" name="Check log response" qmlId="qml10caafcaab224b269257263a35694b8b">
+            <fields xmi:type="ad:ValueField" xmi:id="_iz9LkZifEeOu0Z9PS8q8GQ" fieldRef="qmle11f7dacd7834a43b394e44b85504a32">
+              <possibleValues xmi:type="ad:Expression" xmi:id="_iz9LkpifEeOu0Z9PS8q8GQ">
+                <clause xmi:type="ad:FunctionCallClause" xmi:id="_kS5OwJifEeOu0Z9PS8q8GQ" methodRef="qml0f837a9cd8f146cea942333524a7bd99">
+                  <inputArgs xmi:type="ad:Expression" xmi:id="_kS5OwZifEeOu0Z9PS8q8GQ">
+                    <clause xmi:type="ad:DataObjectAccessClause" xmi:id="_0xuEURROEeeOYaOtHg1erg" objectRef="qmlae6b0b9fc2bb44c0bccf8515aace49f5"/>
+                  </inputArgs>
+                </clause>
+              </possibleValues>
+            </fields>
+            <fields xmi:type="ad:ValueField" xmi:id="_iz9LlJifEeOu0Z9PS8q8GQ" fieldRef="qmld3df82b496354a06b2d65907297844c6">
+              <possibleValues xmi:type="ad:Expression" xmi:id="_iz9LlZifEeOu0Z9PS8q8GQ">
+                <clause xmi:type="ad:StringLiteralClause" xmi:id="_jsQFgJifEeOu0Z9PS8q8GQ" value="no time stamp"/>
+              </possibleValues>
+            </fields>
+            <type xmi:type="ad:CustomTypeRef" xmi:id="_iz9Ll5ifEeOu0Z9PS8q8GQ" idRef="qml00f8010fb7c24d7795f407152c672de4"/>
+          </clause>
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_-QMmYBRNEeeOYaOtHg1erg" methodRef="managedRequirement">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_-QMmYRRNEeeOYaOtHg1erg">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="__FyxoBRNEeeOYaOtHg1erg" methodRef="Create_Ad_Hoc_Requirement">
+            <inputArgs xmi:type="ad:Expression" xmi:id="__FyxoRRNEeeOYaOtHg1erg">
+              <clause xmi:type="ad:FunctionCallClause" xmi:id="_RaVgABROEeeOYaOtHg1erg" methodRef="Create_Requirement_Group">
+                <inputArgs xmi:type="ad:Expression" xmi:id="_TTjEYBROEeeOYaOtHg1erg">
+                  <clause xmi:type="ad:StringLiteralClause" xmi:id="_TTjEYRROEeeOYaOtHg1erg" value="Low Level"/>
+                </inputArgs>
+              </clause>
+            </inputArgs>
+            <inputArgs xmi:type="ad:Expression" xmi:id="__FyxohRNEeeOYaOtHg1erg">
+              <clause xmi:type="ad:StringLiteralClause" xmi:id="_ceiNQBROEeeOYaOtHg1erg" value="Application logs data entered via UI"/>
+            </inputArgs>
+          </clause>
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_-QMmYhRNEeeOYaOtHg1erg"/>
+      </actionInvocations>
+    </nodes>
+    <nodes xmi:type="ad:VariableDataObject" xmi:id="_mZnSYJiZEeO3mf6Bj_6PEQ" name="Entered user info" qmlId="qml4f285e377a8244739649422be48c151e" deleted="true" visibility="Local">
+      <type xmi:type="ad:CustomTypeRef" xmi:id="_mZnSYZiZEeO3mf6Bj_6PEQ" idRef="qmlfeddd19fd7334089b7b6a9bb57988d30"/>
+      <fields xmi:type="ad:VariableField" xmi:id="_mZnSYpiZEeO3mf6Bj_6PEQ" fieldRef="qml0f837a9cd8f146cea942333524a7bd99"/>
+      <fields xmi:type="ad:VariableField" xmi:id="_mZnSY5iZEeO3mf6Bj_6PEQ" fieldRef="qmlb6d3ab57ec8b4e23b832488c599f5b63"/>
+    </nodes>
+  </ad:ActivityDiagram>
+  <notation:Diagram xmi:id="_LF5b0JiUEeO3mf6Bj_6PEQ" type="ConformiqActivityChart" element="_LF40wJiUEeO3mf6Bj_6PEQ" name="WebApplicationwithBackendCheck-LowLevel.ad" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_M-3voJiUEeO3mf6Bj_6PEQ" type="2004" element="_M-R5wJiUEeO3mf6Bj_6PEQ">
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_M-3voZiUEeO3mf6Bj_6PEQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_M-3vopiUEeO3mf6Bj_6PEQ" fontName="Segoe UI"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_M-3vo5iUEeO3mf6Bj_6PEQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M-3vpJiUEeO3mf6Bj_6PEQ" x="204" y="60"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Pp7nsJiUEeO3mf6Bj_6PEQ" type="2006" element="_Pp2vMJiUEeO3mf6Bj_6PEQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Pp8OwJiUEeO3mf6Bj_6PEQ" type="5006"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Pp8OwZiUEeO3mf6Bj_6PEQ" type="7001">
+        <children xmi:type="notation:Node" xmi:id="_AClSYKB2EeOwQq9eQBue_A" type="3001" element="_ACkEQKB2EeOwQq9eQBue_A">
+          <children xmi:type="notation:DecorationNode" xmi:id="_AClSZaB2EeOwQq9eQBue_A" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_AClSYaB2EeOwQq9eQBue_A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_AClSYqB2EeOwQq9eQBue_A" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_AClSY6B2EeOwQq9eQBue_A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AClSZKB2EeOwQq9eQBue_A"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_OqwBoJifEeOu0Z9PS8q8GQ" type="3001" element="_OqsXQJifEeOu0Z9PS8q8GQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_OqwosJifEeOu0Z9PS8q8GQ" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_OqwBoZifEeOu0Z9PS8q8GQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_OqwBopifEeOu0Z9PS8q8GQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_OqwBo5ifEeOu0Z9PS8q8GQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OqwBpJifEeOu0Z9PS8q8GQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_UuynsJifEeOu0Z9PS8q8GQ" type="3001" element="_UuuWQJifEeOu0Z9PS8q8GQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_UuyntZifEeOu0Z9PS8q8GQ" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_UuynsZifEeOu0Z9PS8q8GQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_UuynspifEeOu0Z9PS8q8GQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_Uuyns5ifEeOu0Z9PS8q8GQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UuyntJifEeOu0Z9PS8q8GQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_vCpBoBROEeeOYaOtHg1erg" type="3001" element="_vCi7ABROEeeOYaOtHg1erg">
+          <children xmi:type="notation:DecorationNode" xmi:id="_vCpBpRROEeeOYaOtHg1erg" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_vCpBoRROEeeOYaOtHg1erg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_vCpBohROEeeOYaOtHg1erg" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_vCpBoxROEeeOYaOtHg1erg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vCpBpBROEeeOYaOtHg1erg" x="601" y="185" width="497" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-qzXoJiUEeO3mf6Bj_6PEQ" type="3001" element="_-qyJgJiUEeO3mf6Bj_6PEQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_-qzXpZiUEeO3mf6Bj_6PEQ" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_-qzXoZiUEeO3mf6Bj_6PEQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-qzXopiUEeO3mf6Bj_6PEQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_-qzXo5iUEeO3mf6Bj_6PEQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-qzXpJiUEeO3mf6Bj_6PEQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_AmmV8JiVEeO3mf6Bj_6PEQ" type="3001" element="_Al7nkJiVEeO3mf6Bj_6PEQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Amm9AJiVEeO3mf6Bj_6PEQ" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_AmmV8ZiVEeO3mf6Bj_6PEQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_AmmV8piVEeO3mf6Bj_6PEQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_AmmV85iVEeO3mf6Bj_6PEQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AmmV9JiVEeO3mf6Bj_6PEQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_bVzX8JifEeOu0Z9PS8q8GQ" type="3001" element="_bVq1EJifEeOu0Z9PS8q8GQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_bVzX9ZifEeOu0Z9PS8q8GQ" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bVzX8ZifEeOu0Z9PS8q8GQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_bVzX8pifEeOu0Z9PS8q8GQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_bVzX85ifEeOu0Z9PS8q8GQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bVzX9JifEeOu0Z9PS8q8GQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_iEuHAJifEeOu0Z9PS8q8GQ" type="3001" element="_iEpOgJifEeOu0Z9PS8q8GQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_iEuHBZifEeOu0Z9PS8q8GQ" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_iEuHAZifEeOu0Z9PS8q8GQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_iEuHApifEeOu0Z9PS8q8GQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_iEuHA5ifEeOu0Z9PS8q8GQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iEuHBJifEeOu0Z9PS8q8GQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_-QlA4BRNEeeOYaOtHg1erg" type="3001" element="_-QMmYBRNEeeOYaOtHg1erg">
+          <children xmi:type="notation:DecorationNode" xmi:id="_-QlA5RRNEeeOYaOtHg1erg" type="5015"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_-QlA4RRNEeeOYaOtHg1erg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_-QlA4hRNEeeOYaOtHg1erg" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_-QlA4xRNEeeOYaOtHg1erg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-QlA5BRNEeeOYaOtHg1erg"/>
+        </children>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Pp8OwpiUEeO3mf6Bj_6PEQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Pp8Ow5iUEeO3mf6Bj_6PEQ"/>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Pp7nsZiUEeO3mf6Bj_6PEQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Pp7nspiUEeO3mf6Bj_6PEQ" fontName="Segoe UI"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pp7ns5iUEeO3mf6Bj_6PEQ" x="420" y="72" width="469"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_3pYAgMO7EeOsffqgMdaGWA" type="Note" fontName="Sans" description="This diagram illustrates the modelling of a web application at a lower level.&#xA;&#xA;We model the presence of a request-response communication protocol by including both receive message and send message actions.&#xA;&#xA;To keep the example short, we don't worry about the request validation logic, we just assume it happens." fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_3pZ1sMO7EeOsffqgMdaGWA" type="DiagramName">
+        <element xsi:nil="true"/>
+      </children>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_3pZ1scO7EeOsffqgMdaGWA" type="Description">
+        <element xsi:nil="true"/>
+      </children>
+      <styles xmi:type="notation:TextStyle" xmi:id="_3pYAgcO7EeOsffqgMdaGWA"/>
+      <styles xmi:type="notation:LineTypeStyle" xmi:id="_3pYAgsO7EeOsffqgMdaGWA"/>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3pYAg8O7EeOsffqgMdaGWA" x="300" y="-120" width="349" height="157"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_3xuR8MPAEeOsffqgMdaGWA" type="Note" fontName="Sans" description="To test the behavior of the different activity diagrams, select one of them and set it as the main diagram before generating the tests." fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_3xwuMMPAEeOsffqgMdaGWA" type="DiagramName">
+        <element xsi:nil="true"/>
+      </children>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_3xx8UMPAEeOsffqgMdaGWA" type="Description">
+        <element xsi:nil="true"/>
+      </children>
+      <styles xmi:type="notation:TextStyle" xmi:id="_3xuR8cPAEeOsffqgMdaGWA"/>
+      <styles xmi:type="notation:LineTypeStyle" xmi:id="_3xuR8sPAEeOsffqgMdaGWA"/>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3xuR88PAEeOsffqgMdaGWA" x="684" y="-48" width="197" height="87"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_LF5b0ZiUEeO3mf6Bj_6PEQ"/>
+    <edges xmi:type="notation:Edge" xmi:id="_Q-7rwJiUEeO3mf6Bj_6PEQ" type="4001" element="_Q-7EsJiUEeO3mf6Bj_6PEQ" source="_M-3voJiUEeO3mf6Bj_6PEQ" target="_Pp7nsJiUEeO3mf6Bj_6PEQ">
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_Q-7rwZiUEeO3mf6Bj_6PEQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Q-7rwpiUEeO3mf6Bj_6PEQ" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Q-7rw5iUEeO3mf6Bj_6PEQ" points="[0, 0, -192, 16]$[176, -29, -16, -13]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Q-9g8ZiUEeO3mf6Bj_6PEQ" id="(0.019189765458422176,0.03783783783783784)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

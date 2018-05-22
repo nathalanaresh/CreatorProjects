@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/14/StructureDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_UFdhYJigEeOu0Z9PS8q8GQ" type="Dsl" name="BackendOperations-HighLevel.sd" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_1RrvIJrkEeOXfdOU9S9KgA" type="Note" fontName="Segoe UI" description="The modeling approach shown here illustrates a more abstract reflection of the operations performed on backend to check the SUT during testing. Here we only specify the information to be checked (&quot;what&quot;) and not at all which backend operation sequence is used to validate the information (&quot;how&quot;).&#xA;&#xD;&#xA;The benefit of this high level approach is that it can significantly simplify the model, reduce its specification complexity and test generation time, as well as preventing logic only relevant to sequencing of operations from polluting the functionality (from the specification) to be tested. Testing the same functionality with different backends (e.g., mainframe vs unix commands) would have no impact on model and generated test logic.&#xA;&#xD;&#xA;The drawback of this solution is that the actual operation (sequencing) required to validate this information in the backend needs to be added or included during test execution or as part of the test harness (unless the framework provides this type of checking already). Testing the same functionality with different backends (e.g., mainframe vs unix commands) would require to use of different mappings in the test harness file." fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_1RrvJJrkEeOXfdOU9S9KgA" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_1RrvJZrkEeOXfdOU9S9KgA" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_1RrvIZrkEeOXfdOU9S9KgA"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_1RrvIprkEeOXfdOU9S9KgA"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1RrvI5rkEeOXfdOU9S9KgA" x="204" y="-36" width="877" height="217"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_5A5y4JrkEeOXfdOU9S9KgA" type="Note" fontName="Segoe UI" description="Although there is no &quot;backend interface object&quot; in the toolbar we can simulate backend operations by using a &quot;validation&quot; message issued on a special, outbound &quot;Backend Validation&quot; interface to become verification points in the test!&#xA;&#xD;&#xA;Name each backend operation message after the information to be checked. Add data required to validate the results returned by the actual operation(s) during test execution.&#xA;&#xA;Each validation procedure may involve one or mutliple steps. In case of automatic execution the sequence of steps are realized in the test harness." fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_5A_5gprkEeOXfdOU9S9KgA" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_5A_5g5rkEeOXfdOU9S9KgA" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_5A5y4ZrkEeOXfdOU9S9KgA"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_5A_5gJrkEeOXfdOU9S9KgA"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5A_5gZrkEeOXfdOU9S9KgA" x="504" y="216" width="277" height="277"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__VhLkJrkEeOXfdOU9S9KgA" type="Note" fontName="Segoe UI" description="By default Creator messages get rendered in the Excel test documentation (using Excel Scripter) in text , e.g., as 'SUT sends via Backend Validation interface a Validate process information Message where Server name is &quot;1.1.1.1&quot; and Processes running is &quot;login&quot;'. &#xD;&#xA;&#xD;&#xA;This default documentation can (and should) be modified to a better wording such as 'Verify on backend server 1.1.1.1 that login process is running'.  This can be achieved by changing in the ExcelMappings.xls file within your CQ project the default mapping of the &quot;Backend_Validation:Validate_process_information_Message&quot; action to &quot;Verify on backend server $msg.Server_name$ that $msg.Processes_running$ process is running.&quot;" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="__VnSMJrkEeOXfdOU9S9KgA" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="__VnSMZrkEeOXfdOU9S9KgA" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="__VhLkZrkEeOXfdOU9S9KgA"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="__VhLkprkEeOXfdOU9S9KgA"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__VhLk5rkEeOXfdOU9S9KgA" x="216" y="528" width="853" height="121"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_0wFu4J1eEeO6M7xWjz4zOQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0wFu5p1eEeO6M7xWjz4zOQ" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0wFu551eEeO6M7xWjz4zOQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_0wFu-51eEeO6M7xWjz4zOQ" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_0wFu_Z1eEeO6M7xWjz4zOQ" type="5001"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_0wFu_p1eEeO6M7xWjz4zOQ" type="5060"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:PrimitiveField" href="Backend%20Operations%20-%20High%20Level.sl#qmla517a56936fb44d583a0f892188e31d7"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0wFu_J1eEeO6M7xWjz4zOQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_0wFu_51eEeO6M7xWjz4zOQ" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_0wFvAZ1eEeO6M7xWjz4zOQ" type="5001"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_0wFvAp1eEeO6M7xWjz4zOQ" type="5060"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:PrimitiveField" href="Backend%20Operations%20-%20High%20Level.sl#qml719a2f00dc1942bba211cc617b6bdbb7"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0wFvAJ1eEeO6M7xWjz4zOQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_0wFvA51eEeO6M7xWjz4zOQ" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_0wFvBZ1eEeO6M7xWjz4zOQ" type="5001"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_0wFvBp1eEeO6M7xWjz4zOQ" type="5060"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:PrimitiveField" href="Backend%20Operations%20-%20High%20Level.sl#qmld82e1ea88b1542b9b1e1fc4f2f27583e"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0wFvBJ1eEeO6M7xWjz4zOQ"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0wFu6J1eEeO6M7xWjz4zOQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0wFu6Z1eEeO6M7xWjz4zOQ"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_0wFu4Z1eEeO6M7xWjz4zOQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0wFu4p1eEeO6M7xWjz4zOQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_0wFu451eEeO6M7xWjz4zOQ"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_0wFu5J1eEeO6M7xWjz4zOQ"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Message" href="Backend%20Operations%20-%20High%20Level.sl#qml7850d154aabd4cbf9a270a0102326819"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0wFu5Z1eEeO6M7xWjz4zOQ" x="216" y="273" width="229"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_0wFu6p1eEeO6M7xWjz4zOQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0wFu8J1eEeO6M7xWjz4zOQ" type="5003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0wFu8Z1eEeO6M7xWjz4zOQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_2KvFIF6DEeSZvNZl8pTDaQ" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_2KvsMF6DEeSZvNZl8pTDaQ" type="5001"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_2KvsMV6DEeSZvNZl8pTDaQ" type="5060"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:PrimitiveField" href="Backend%20Operations%20-%20High%20Level.sl#qmlbf8e80023cc349218e6e886f1a00e36d"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2KvFIV6DEeSZvNZl8pTDaQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_2KvsMl6DEeSZvNZl8pTDaQ" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_2KwTQF6DEeSZvNZl8pTDaQ" type="5001"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_2KwTQV6DEeSZvNZl8pTDaQ" type="5060"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:PrimitiveField" href="Backend%20Operations%20-%20High%20Level.sl#qml4868f7bfd77a4b6a9f1d0ff485654413"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2KvsM16DEeSZvNZl8pTDaQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_2KwTQl6DEeSZvNZl8pTDaQ" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_2KwTRF6DEeSZvNZl8pTDaQ" type="5001"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_2Kw6UF6DEeSZvNZl8pTDaQ" type="5060"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:PrimitiveField" href="Backend%20Operations%20-%20High%20Level.sl#qml89e42258107742d69bea338f2a00cd64"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2KwTQ16DEeSZvNZl8pTDaQ"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_2Kw6UV6DEeSZvNZl8pTDaQ" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_2Kw6U16DEeSZvNZl8pTDaQ" type="5001"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_2Kw6VF6DEeSZvNZl8pTDaQ" type="5060"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:PrimitiveField" href="Backend%20Operations%20-%20High%20Level.sl#qml2bd6fb6baad34f8b99ebe1c8c1cc97cb"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Kw6Ul6DEeSZvNZl8pTDaQ"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0wFu8p1eEeO6M7xWjz4zOQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0wFu851eEeO6M7xWjz4zOQ"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_0wFu651eEeO6M7xWjz4zOQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0wFu7J1eEeO6M7xWjz4zOQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_0wFu7Z1eEeO6M7xWjz4zOQ"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_0wFu7p1eEeO6M7xWjz4zOQ"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Message" href="Backend%20Operations%20-%20High%20Level.sl#qmla60be2bd6e6c4858b4d480791e7b6942"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0wFu751eEeO6M7xWjz4zOQ" x="840" y="264"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_0wFu9J1eEeO6M7xWjz4zOQ" type="2006">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0wFu-Z1eEeO6M7xWjz4zOQ" type="5048"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0wFu-p1eEeO6M7xWjz4zOQ" type="5053"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_0wFu9Z1eEeO6M7xWjz4zOQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0wFu9p1eEeO6M7xWjz4zOQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_0wFu951eEeO6M7xWjz4zOQ"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:ExternalInterface" href="Backend%20Operations%20-%20High%20Level.sl#qml967013948cc348cb9c9729e5b9c48213"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0wFu-J1eEeO6M7xWjz4zOQ" x="216" y="204" width="229"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_UFdhYZigEeOu0Z9PS8q8GQ"/>
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="Backend%20Operations%20-%20High%20Level.sl#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_bjUvAJ1fEeO6M7xWjz4zOQ" type="NoteAttachment" source="_0wFu4J1eEeO6M7xWjz4zOQ" target="_5A5y4JrkEeOXfdOU9S9KgA" lineWidth="1">
+    <styles xmi:type="notation:ArrowStyle" xmi:id="_bjUvAZ1fEeO6M7xWjz4zOQ"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_bjUvAp1fEeO6M7xWjz4zOQ"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bjUvA51fEeO6M7xWjz4zOQ" points="[0, 5, -125, 0]$[119, 3, -6, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bjUvBJ1fEeO6M7xWjz4zOQ" id="(0.9781659388646288,0.5476190476190477)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bjUvBZ1fEeO6M7xWjz4zOQ" id="(0.021660649819494584,0.3438735177865613)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cgQ4YJ1fEeO6M7xWjz4zOQ" type="NoteAttachment" source="_0wFu6p1eEeO6M7xWjz4zOQ" target="_5A5y4JrkEeOXfdOU9S9KgA" lineWidth="1">
+    <styles xmi:type="notation:ArrowStyle" xmi:id="_cgQ4YZ1fEeO6M7xWjz4zOQ"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_cgQ4Yp1fEeO6M7xWjz4zOQ"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cgQ4Y51fEeO6M7xWjz4zOQ" points="[0, 3, 150, 0]$[-108, -15, 42, -18]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cgW_AJ1fEeO6M7xWjz4zOQ" id="(0.023121387283236993,0.5098039215686274)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cgW_AZ1fEeO6M7xWjz4zOQ" id="(0.8447653429602888,0.33992094861660077)"/>
+  </edges>
+</notation:Diagram>
